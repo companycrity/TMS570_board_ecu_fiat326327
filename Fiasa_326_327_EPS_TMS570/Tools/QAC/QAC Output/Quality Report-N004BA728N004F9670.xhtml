@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:prdf="http://www.programmingresearch.com/todo">
+<head>
+<title>Quality Report : Fiasa_326_327_EPS_TMS570</title>
+<style type="text/css">
+.lightheader{ background-color: lightgreen; }
+.boldheader{ background-color: lime; }
+.center{ text-align: center; margin: 0 auto; }
+.left{ text-align: left; margin: 0 auto; }
+.rotate{ direction: ltr; writing-mode: tb-rl; }
+v\:* { behavior: url(#default#VML); }
+table.prdftable,td,th{
+            border-style: None;
+            border-color: White;
+            border-collapse: collapse;
+            border-width: 1px;
+}
+body{ font-family: Default; }
+</style>
+</head>
+<body>
+<div>
+<h3>
+<a name="N004BA728N004F9670">A.1    Principal Component Analysis</a>
+</h3>
+Metrics data can be thought of as a table with rows representing individual entities (e.g. functions or files) and columns representing individual metrics. Typically, metrics are correlated to a certain extent, so if an entity scores high on one metric it is likely that other metrics will also have an increased value. However, this correlation is not perfect; otherwise, there would be no point in calculating all of the metrics and only one would suffice. Yet, it is possible to sort the rows of the table taking all of the columns into account at once. The first row now represents an entity with the highest combined rank, the second row has the second highest overall rank, and so on.  What we now need is a 'super metric' that will give us the same ordering of the entities as the procedure outlined above, but also will have a well defined value for each entity, so that we can compare them directly, rather that their relative sequence in the table. Such a metric can be derived by performing a statistical analysis procedure called Principal Components Analysis (PCA) on the original metrics table.
+<br/>
+<br/>
+PCA is a technique for deriving a new set of Cartesian axes, called Principal Components (PCs), from a given set of variables and their observations, in this case metrics and their actual values, as measured for files and functions (and classes for C++). The first PC is selected such that it explains the most variance in the set of variables, or in other words is the line through the multivariate space (with each metric contributing an orthogonal axis) that is the closest to all the points (observations). Identical selection criterion is applied to the second and subsequent PCs, except that they all have to be mutually orthogonal. The first two PCs taken together represent the plane of closest fit to the original data. For the purposes of calculating our 'super metric' we only need the first PC. This report calculates the first PC for the selected file and function (and class) metrics separately, and reports it as a percentage, with 100% representing the entity with the lowest overall values of selected metrics. Therefore, this new metric can be likened to a combined quality measure.
+<br/>
+
+
+</div>
+</body>
+</html>

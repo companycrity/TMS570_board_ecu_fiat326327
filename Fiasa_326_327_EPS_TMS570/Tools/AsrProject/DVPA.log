@@ -1,0 +1,2944 @@
+####################### Log Session: 1:14:06 PM 6/16/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f3aab968-2f0b-419f-b73c-f1f878fd1b23\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 0.939 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.029 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2015-06-16 13:13:48
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-06-16_13-13-48" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-06-16_13-13-48"  --minimumEcuCMode'
+Generating EcuC-Project started at 2015-06-16 13:13:49
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2015-06-16 13:13:51
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 9 updated entries: Changed 0 | Added 9 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2015-06-16 13:14:04
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+DLL 'DVDevApp.dll' not found.
+  NOK
+===============================
+Error during workflow -> Restore of backup necessary.
+Restored backup successfully.
+
+
+####################### Log Session: 1:48:21 PM 6/16/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Edit of project settings
+================================================================================
+Create backup
+  OK
+================================================================================
+Save project file
+  OK
+
+
+####################### Log Session: 5:52:45 PM 6/16/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Edit of project settings
+================================================================================
+Create backup
+  OK
+================================================================================
+Save project file
+  OK
+
+
+####################### Log Session: 5:53:40 PM 6/16/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\3e0117aa-d68e-44b5-8230-0c98b0efda82\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 0.932 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.027 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2015-06-16 17:53:25
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-06-16_17-53-25" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-06-16_17-53-25"  --minimumEcuCMode'
+Generating EcuC-Project started at 2015-06-16 17:53:25
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2015-06-16 17:53:27
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 9 updated entries: Changed 0 | Added 9 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2015-06-16 17:53:39
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+DLL 'DVDevApp.dll' not found.
+  NOK
+===============================
+Error during workflow -> Restore of backup necessary.
+Restored backup successfully.
+
+
+####################### Log Session: 5:42:05 PM 7/13/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D01 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D01_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\a9bc1a96-b96e-4a39-9b77-63598da15c1f\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 1.037 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.035 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2015-07-13 17:41:50
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-07-13_17-41-50" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-07-13_17-41-50"  --minimumEcuCMode'
+Generating EcuC-Project started at 2015-07-13 17:41:50
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2015-07-13 17:41:53
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 9 updated entries: Changed 0 | Added 9 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2015-07-13 17:42:05
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+  OK
+
+
+####################### Log Session: 6:04:05 PM 7/13/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D01 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D01_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.0 SP5\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\505e56c5-d2cb-46bc-a017-1554262cfbb4\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 0.913 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.027 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2015-07-13 18:03:52
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-07-13_18-03-52" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-07-13_18-03-52"  --minimumEcuCMode'
+Generating EcuC-Project started at 2015-07-13 18:03:52
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2015-07-13 18:03:54
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 0 updated entries: Changed 0 | Added 0 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2015-07-13 18:04:05
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+  OK
+
+
+####################### Log Session: 6:09:12 PM 7/13/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D01 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D01_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\f91a5fdd-4b6e-4e41-a9d1-0caf7a3dc2a5\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 0.903 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.027 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2015-07-13 18:08:59
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-07-13_18-08-59" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-07-13_18-08-59"  --minimumEcuCMode'
+Generating EcuC-Project started at 2015-07-13 18:08:59
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2015-07-13 18:09:01
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 0 updated entries: Changed 0 | Added 0 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Users\nzdx8v\Desktop\Projects\Application\Fiasa\Fiasa_01.01.00_working\Fiasa_02.00.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2015-07-13 18:09:11
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+  OK
+
+
+####################### Log Session: 1:25:48 PM 10/8/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D01 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D01_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Input_file\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+================================================================================
+Convert legacy file(s) to System Description - Pre-step to obtain the available ECU instances
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Input_file\P3271_C-CAN [07339]_CR972.dbc" -o "C:\Users\nzdx8v\AppData\Local\Temp\1f6634c6-d30d-4d24-acbe-dd4268c218bc\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Input_file\P3271_C-CAN [07339]_CR972.dbc" -o "C:\Users\nzdx8v\AppData\Local\Temp\1f6634c6-d30d-4d24-acbe-dd4268c218bc\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Input_file\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+C:\Users\nzdx8v\AppData\Local\Temp\1f6634c6-d30d-4d24-acbe-dd4268c218bc\EPS_SystemDescr\EPS_SystemDescr.arxml
+Elapsed time: 0.805 seconds
+0 Errors
+11 Warnings
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Input_file\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Input_file\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Input_file\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\2b87f0c6-3118-4d7c-9943-084259211e36\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 0.870 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.028 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2015-10-08 13:25:35
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-10-08_13-25-35" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-10-08_13-25-35"  --minimumEcuCMode'
+Generating EcuC-Project started at 2015-10-08 13:25:36
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2015-10-08 13:25:38
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 28 updated entries: Changed 2 | Added 9 | Removed 0 | Overwritten 17 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_02.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2015-10-08 13:25:48
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+  OK
+
+
+####################### Log Session: 10:33:40 AM 10/23/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D01 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D01_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\6525aeb4-c7e4-4a5d-8c82-c8f930828d4c\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 1.123 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.027 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2015-10-23 10:33:27
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-10-23_10-33-27" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-10-23_10-33-27"  --minimumEcuCMode'
+Generating EcuC-Project started at 2015-10-23 10:33:27
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2015-10-23 10:33:30
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 9 updated entries: Changed 0 | Added 9 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.01.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2015-10-23 10:33:40
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+  OK
+
+
+####################### Log Session: 12:28:00 PM 11/10/2015 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D01 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D01_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\717a27aa-39c5-40ea-8472-72b33861f10c\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 1.170 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.029 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2015-11-10 12:27:42
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-11-10_12-27-42" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2015-11-10_12-27-42"  --minimumEcuCMode'
+Generating EcuC-Project started at 2015-11-10 12:27:42
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2015-11-10 12:27:45
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 9 updated entries: Changed 0 | Added 9 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.02.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2015-11-10 12:27:59
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+  OK
+
+
+####################### Log Session: 10:49:08 AM 1/19/2016 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D01 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D01_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+FIBEXs:
+LDFs:
+
+================================================================================
+Convert legacy file(s) to System Description - Pre-step to obtain the available ECU instances
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -o "C:\Users\nzdx8v\AppData\Local\Temp\9d1ecef6-4bc1-4126-96f2-aee74702d418\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -o "C:\Users\nzdx8v\AppData\Local\Temp\9d1ecef6-4bc1-4126-96f2-aee74702d418\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+C:\Users\nzdx8v\AppData\Local\Temp\9d1ecef6-4bc1-4126-96f2-aee74702d418\EPS_SystemDescr\EPS_SystemDescr.arxml
+Elapsed time: 0.961 seconds
+0 Errors
+11 Warnings
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_CR972.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] ECU FPMM is sending no NM messages
+      ==> ECUs with NM must send exactly one NM message
+[info] Writing System Description...
+[info] Writing 10 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_FPMM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\0f6dcfb5-4406-4cb1-bacc-df43b4b75c60\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 0.891 seconds
+0 Errors
+11 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 729 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  37 COMPU-METHOD
+[info]  62 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  45 INTEGER-LITERAL
+[info]  37 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  62 I-SIGNAL
+[info]  62 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  62 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  62 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  62 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   3 UNIT
+Elapsed time: 0.027 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2016-01-19 10:48:54
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2016-01-19_10-48-54" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2016-01-19_10-48-54"  --minimumEcuCMode'
+Generating EcuC-Project started at 2016-01-19 10:48:55
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2016-01-19 10:48:57
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 12 updated entries: Changed 3 | Added 9 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.00\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2016-01-19 10:49:08
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+  OK
+
+
+####################### Log Session: 2:38:07 PM 3/1/2016 #######################
+DaVinci Project Assistant Log file (Version: 1.10.7.0)
+================================================================================
+Project Information
+
+General
+Name:EPS
+Author:
+Version:
+Description:
+
+Folders
+Project folder:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject
+ECUC folder:.\Config\ECUC
+Module files:..\..\SwProject\Source\GenData
+Template files:..\..\SwProject\Source
+AUTOSAR files:.\Config\ServiceComponents
+Log files:.\
+Start Menu entry:
+
+Software Integration Package (SIP)
+Registered:
+  CBD1300649 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300649_D00_Tmsx70\Generators\Components)
+  CBD1300124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1300124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D00 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D00_Tmsx70\Generators\Components)
+  CBD1010124 D01 Tmsx70 TexasInstruments (C:\Vector\CBD1010124_D01_Tmsx70\Generators\Components)
+Used:.\Generators\Components
+Controller:Tms470
+Compiler:TexasInstruments
+Derivative:Tmsx70_Tms570ls2125
+
+Tools
+DaVinci Configurator PRO:C:\Program Files (x86)\Vector DaVinci Configurator 4.2 SP2\DaVinciCFG.exe
+DaVinci Developer:C:\Program Files (x86)\Vector DaVinci Developer 3.0 (SP5)\bin\DaVinciDEV.exe
+GENy:C:\Program Files (x86)\Vector GENy 1.4\GENy.exe
+
+Workspace
+Path:.\Config\DCF\EPS.dcf
+
+Input
+Used:single
+Extracts:
+Mecu:
+System Descriptions:
+ECU-Instances:
+  EPS
+DBCs:
+  C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_6A_R1_CR1664.dbc
+FIBEXs:
+LDFs:
+
+================================================================================
+Convert legacy file(s) to System Description - Pre-step to obtain the available ECU instances
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_6A_R1_CR1664.dbc" -o "C:\Users\nzdx8v\AppData\Local\Temp\aa52f743-a492-4175-9af9-1f9e6256d737\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_6A_R1_CR1664.dbc" -o "C:\Users\nzdx8v\AppData\Local\Temp\aa52f743-a492-4175-9af9-1f9e6256d737\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_6A_R1_CR1664.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[info] Writing System Description...
+C:\Users\nzdx8v\AppData\Local\Temp\aa52f743-a492-4175-9af9-1f9e6256d737\EPS_SystemDescr\EPS_SystemDescr.arxml
+Elapsed time: 0.746 seconds
+0 Errors
+10 Warnings
+
+
+================================================================================
+Update of a project
+================================================================================
+Create backup
+  OK
+================================================================================
+Create System Descrtiption for legacy files
+  OK
+================================================================================
+Convert legacy file(s) to System Description
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe
+Used arguments: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_6A_R1_CR1664.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+Return code:0
+===============================
+Output messages
+Vector Legacy Database Converter Version 1.6.11.0
+Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_6A_R1_CR1664.dbc" -e -o "C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr.arxml" -r 32
+[info] Converting DBC file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\P3271_C-CAN [07339]_6A_R1_CR1664.dbc
+[warning] 1-bit signal LatAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts_BSM has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LatAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal LongAccelerationFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 1-bit signal YawRateFailSts has invalid value range [0,3]
+      ==> The value range is reduced to [0,1]
+[warning] 13-bit signal LHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal LHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHFWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[warning] 13-bit signal RHRWheelSpeed has invalid value range [0,8192]
+      ==> The value range is reduced to [0,8191]
+[info] Writing System Description...
+[info] Writing 9 ECU Extracts...
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_BCM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_BSM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_DIAG_TEST.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_ECM.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_EPS.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_IPC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_MTA.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_ORC.arxml
+C:\Users\nzdx8v\AppData\Local\Temp\5c2a775c-579f-4d6d-bea2-18fb012abc77\EPS_SystemDescr\EPS_SystemDescr_PAM.arxml
+Elapsed time: 0.908 seconds
+0 Errors
+10 Warnings
+================================================================================
+Save project file
+  OK
+================================================================================
+Update Tools
+  OK
+================================================================================
+Update ECUC file(s)
+============= PRE-STEP ==================
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe
+Used arguments:"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+Return code:0
+===============================
+Output messages
+Vector System Description Processor Version 1.0.2.0
+Copyright c Vector Informatik GmbH 2013
+[info] Command line: "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\SystemDescrProcessor\SystemDescrProcessor.exe" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"
+[info] Load Autosar file C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml
+[info] 739 Autosar elements:
+[info]  13 AR-PACKAGE
+[info]  25 BOOLEAN-LITERAL
+[info]  25 BOOLEAN-TYPE
+[info]   1 CAN-CLUSTER
+[info]   1 CAN-COMMUNICATION-CONNECTOR
+[info]   1 CAN-COMMUNICATION-CONTROLLER
+[info]  23 CAN-FRAME-TRIGGERING
+[info]   3 CAN-TP-NODE
+[info]  38 COMPU-METHOD
+[info]  63 CONSTANT-SPECIFICATION
+[info]   3 DCM-I-PDU
+[info]   1 ECU-INSTANCE
+[info]  23 FRAME
+[info]  23 FRAME-PORT
+[info]  46 INTEGER-LITERAL
+[info]  38 INTEGER-TYPE
+[info]   2 I-PDU-GROUP
+[info]  20 I-PDU-PORT
+[info]  20 I-PDU-TRIGGERING
+[info]  63 I-SIGNAL
+[info]  63 I-SIGNAL-TO-I-PDU-MAPPING
+[info]  63 I-SIGNAL-TRIGGERING
+[info]   6 NM-PDU
+[info]   3 N-PDU
+[info]  23 PDU-TO-FRAME-MAPPING
+[info]   1 PHYSICAL-CHANNEL
+[info]  14 SIGNAL-I-PDU
+[info]  63 SIGNAL-PORT
+[info]   1 SYSTEM
+[info]  63 SYSTEM-SIGNAL
+[info]   3 TP-ADDRESS
+[info]   4 UNIT
+Elapsed time: 0.028 seconds
+0 Errors
+0 Warnings
+===============================
+
+
+Used executable:C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe
+Used ecu type:Single
+Used arguments:-w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n
+Return code:0
+===============================
+Output messages
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[info]    DbUpdateConsoleApplication: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+Updating EcuC-Project started at 2016-03-01 14:37:52
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2016-03-01_14-37-52" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2016-03-01_14-37-52"  --minimumEcuCMode'
+Generating EcuC-Project started at 2016-03-01 14:37:53
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+0 Errors
+0 Warnings
+Generating EcuC-Project finished at 2016-03-01 14:37:55
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 17 updated entries: Changed 0 | Added 17 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+0 Errors
+0 Warnings
+Updating EcuC-Project finished at 2016-03-01 14:38:06
+  OK
+================================================================================
+Update of existing DaVinci Developer Workspace
+  OK
+
+

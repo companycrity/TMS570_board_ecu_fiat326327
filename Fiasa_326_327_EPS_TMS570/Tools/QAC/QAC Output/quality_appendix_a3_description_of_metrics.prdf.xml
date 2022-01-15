@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+
+<prdf:section created_by='standard.prdf.generator' created_by_version='1.2'
+ xmlns:prdf='http://www.programmingresearch.com/todo'
+ xmlns:svg='http://www.w3.org/2000/svg'
+ xmlns:v='urn:schemas-microsoft-com:vml' >
+<prdf:h3>Description of Metrics</prdf:h3>
+<prdf:text>File Metrics</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>QRFLTOT: Total number of messages in file</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>QRFLDEN: Message density in file</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STBME: Embedded programmer months</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STBMO: Organic programmer months</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STBMS: Semi-detached programmer months</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STBUG: Residual bugs (token-based est.)</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STCDN: Comment to code ratio</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STDEV: Est. development (programmer-days)</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STDIF: Program difficulty</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STECT: Number of external variables declared</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STEFF: Program effort</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STFCO: Estimated function coupling</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STFNC: Number of functions in file</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STHAL: Halstead prediction of STTOT</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STM20: Number of operand occurrences</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STM21: Number of operator occurrences</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STM22: Number of statements</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STM28: Number of non-header comments</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STM33: Number of internal comments</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STOPN: Number of distinct operands</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STOPT: Number of distinct operators</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STSCT: Number of static variables declared</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STSHN: Shannon information content(bits)</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STTDE: Embedded total months</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STTDO: Organic total months</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STTDS: Semi-detached total months</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STTLN: Total preprocessed code lines</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STTOT: Total number of tokens used</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STTPP: Total unpreprocessed code lines</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STVAR: Total number of identifiers</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STVOL: Program volume (bits)</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STZIP: Zipf prediction of STTOT</prdf:text>
+<prdf:eoln/>
+<prdf:text>Function Metrics</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>QRFUTOT: Total number of messages in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>QRFUDEN: Message density in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STAKI: Akiyama's criterion</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STAV1: Average size of statement in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STAV2: Average size of statement in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STAV3: Average size of statement in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STBAK: Number of backwards jumps</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STCAL: Number of functions called from function.</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STCYC: Cyclomatic complexity</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STELF: Number of dangling ELSE IF's</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STFN1: Number of operator occurrences in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STFN2: Number of operand occurrences in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STGTO: Number of GOTO's</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STKDN: Knot density</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STKNT: Knot count</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STLCT: Number of local variables declared</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STLIN: Number of code lines</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STLOP: Number of logical operators</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STM07: Essential Cyclomatic Complexity</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STM19: Number of exit points</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STM29: Number of functions calling this function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STMCC: Myer's interval</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STMIF: Deepest level of nesting</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STPAR: Number of function parameters</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STPBG: Residual bugs (STPTH-based est.)</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STPDN: Path density (STPTH/STXLN)</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STPTH: Estimated static program paths</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STRET: Number of return points in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STST1: Number of statements in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STST2: Number of statements in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STST3: Number of statements in function</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STSUB: Number of function calls</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STUNR: Number of unreachable statements</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STUNV: Unused or non-reused variables</prdf:text>
+<prdf:eoln/>
+<prdf:nbsp/><prdf:text>STXLN: Number of executable lines</prdf:text>
+<prdf:eoln/>
+</prdf:section>

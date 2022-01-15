@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="false"
+    identifier="20d91b40-b545-4de8-aa2c-2a2e946b9da4"
+    location="$(PROJECTROOT)\tessy"
+    name="DigColPsInt"
+    projectVersion="3"
+    tessyVersion="3.1.9"
+    isTemplate="false"/>

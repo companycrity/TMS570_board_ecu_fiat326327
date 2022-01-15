@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:prdf="http://www.programmingresearch.com/todo">
+<head>
+<title>Quality Report : Fiasa_326_327_EPS_TMS570</title>
+<style type="text/css">
+.lightheader{ background-color: lightgreen; }
+.boldheader{ background-color: lime; }
+.center{ text-align: center; margin: 0 auto; }
+.left{ text-align: left; margin: 0 auto; }
+.rotate{ direction: ltr; writing-mode: tb-rl; }
+v\:* { behavior: url(#default#VML); }
+table.prdftable,td,th{
+            border-style: None;
+            border-color: White;
+            border-collapse: collapse;
+            border-width: 1px;
+}
+body{ font-family: Default; }
+</style>
+</head>
+<body>
+<div>
+<h2>
+<a name="N004BA728N004F9640">A    Analysis Summary</a>
+</h2>
+<h3>
+<a name="N004BA728N004F9670">A.1    Principal Component Analysis</a>
+</h3>
+Metrics data can be thought of as a table with rows representing individual entities (e.g. functions or files) and columns representing individual metrics. Typically, metrics are correlated to a certain extent, so if an entity scores high on one metric it is likely that other metrics will also have an increased value. However, this correlation is not perfect; otherwise, there would be no point in calculating all of the metrics and only one would suffice. Yet, it is possible to sort the rows of the table taking all of the columns into account at once. The first row now represents an entity with the highest combined rank, the second row has the second highest overall rank, and so on.  What we now need is a 'super metric' that will give us the same ordering of the entities as the procedure outlined above, but also will have a well defined value for each entity, so that we can compare them directly, rather that their relative sequence in the table. Such a metric can be derived by performing a statistical analysis procedure called Principal Components Analysis (PCA) on the original metrics table.
+<br/>
+<br/>
+PCA is a technique for deriving a new set of Cartesian axes, called Principal Components (PCs), from a given set of variables and their observations, in this case metrics and their actual values, as measured for files and functions (and classes for C++). The first PC is selected such that it explains the most variance in the set of variables, or in other words is the line through the multivariate space (with each metric contributing an orthogonal axis) that is the closest to all the points (observations). Identical selection criterion is applied to the second and subsequent PCs, except that they all have to be mutually orthogonal. The first two PCs taken together represent the plane of closest fit to the original data. For the purposes of calculating our 'super metric' we only need the first PC. This report calculates the first PC for the selected file and function (and class) metrics separately, and reports it as a percentage, with 100% representing the entity with the lowest overall values of selected metrics. Therefore, this new metric can be likened to a combined quality measure.
+<br/>
+
+
+<h3>
+<a name="N004BA728N004F9790">A.2    List of Analysed Files</a>
+</h3>
+<ul>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\AbsHwPos_TcI2cVd\src\Ap_AbsHwPos.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ActivePull\src\Ap_ActivePull.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Adc\src\Adc.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Adc\src\Adc2.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Adc\src\Adc_Common.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Assist\src\Ap_Assist.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\AssistFirewall\src\Ap_AssistFirewall.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\AstLmt_CM\src\Ap_AstLmt.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\AvgFricLrn\src\Ap_AvgFricLrn.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\BatteryVoltage\src\Ap_BatteryVoltage.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\BkCpPc\src\Sa_BkCpPc.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\BVDiag\src\Ap_BVDiag.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\CmMtrCurr\src\Sa_CmMtrCurr.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\CMS_Common\src\EPS_DiagSrvcs_ISO.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\CMS_Common\src\EPS_DiagSrvcs_XCP.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\CMS_Common\src\EPS_DiagSrvcs_XCP.Vector.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ComplErr\src\Ap_ComplErr.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\CtrldDisShtdn\src\Ap_CtrldDisShtdn.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\CtrlTemp\src\Sa_CtrlTemp.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Damping\src\Ap_Damping.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\DampingFirewall\src\Ap_DampingFirewall.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\DiagMgr\src\Ap_DiagMgr_Core.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\DiagMgr\src\Ap_DiagMgr_DemIf.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\DiagMgr\src\Ap_DiagMgr_FailAction.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\DigHwTrqSENT\src\Sa_DigHwTrqSENT.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\DigMSB\src\Sa_DigMSB.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Dma\src\Dma.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ElePwr\src\Ap_ElePwr.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\EOTActuatorMng\src\Ap_EOTActuatorMng.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ePWM\src\Ap_ePWM2.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ePWM\src\Cd_Nhet1.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ePWM\src\ePWM.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ePWM\src\Nhet.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ePWM\src\Nhet2_ePWM_Prog.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ePWM\src\Nhet_SENT_Prog.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\EtDmpFw\src\Ap_EtDmpFw.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\FltInjection\src\Ap_FltInjection.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\FrqDepDmpnInrtCmp\src\Ap_FrqDepDmpnInrtCmp.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Gsod\src\Ap_Gsod.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\HighFreqAssist\src\Ap_HighFreqAssist.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\HiLoadStall\src\Ap_HiLoadStall.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\HwPwUp\src\Ap_HwPwUp.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\HystComp\src\Ap_HystComp.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\LmtCod\src\Ap_LmtCod.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\LrnEOT\src\Ap_LrnEOT.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrCtrl_CM\src\Ap_CurrCmd.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrCtrl_CM\src\Ap_CurrParamComp.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrCtrl_CM\src\Ap_PeakCurrEst.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrCtrl_CM\src\Ap_PICurrCntrl.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrCtrl_CM\src\Ap_QuadDet.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrCtrl_CM\src\Ap_TrqCanc.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrCtrl_CM\src\Ap_TrqCmdScl.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrTempEst\src\Ap_MtrTempEst.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrVel_Digi\src\Sa_MtrVel.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrVel_Digi\src\Sa_MtrVel2.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\MtrVel_Digi\src\Sa_MtrVel3.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\NvMMgr\src\Cd_FeeIf.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\NvMMgr\src\Fapi_UserDefinedFunctions.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\NvMProxy\src\Cd_NvMProxy.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\NxtrLib\src\atan2_octants.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\NxtrLib\src\CheckSums.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\NxtrLib\src\filters.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\NxtrLib\src\interpolation.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\NxtrLib\src\SystemTime.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\OvrVoltMon\src\Sa_OvrVoltMon.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Polarity\src\Ap_Polarity.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\PwrLmtFuncCr\src\Ap_PwrLmtFuncCr.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Return\src\Ap_Return.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ReturnFirewall\src\Ap_ReturnFirewall.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\SgnlCond\src\Ap_SignlCondn.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ShtdnMech\src\Sa_ShtdnMech.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\SpiNxt\src\SpiNxt.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\SpiNxt\src\SpiNxt_Irq.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\StabilityComp\src\Ap_StabilityComp.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\StabilityComp\src\Ap_StabilityComp2.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\StaMd\src\Ap_StaMd.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\StOpCtrl\src\Ap_StOpCtrl.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\SVDiag\src\Ap_DigPhsReasDiag.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\SVDiag\src\Sa_MtrDrvDiag.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\SVDrvr_CM\src\PwmCdd.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Sweep\src\Ap_Sweep.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Sweep\src\Ap_Sweep2.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\ThrmDutyCycle\src\Ap_ThrmlDutyCycle.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TmprlMon\src\Sa_TmprlMon.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TmprlMon\src\Sa_TmprlMon2.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_Startup\src\AppStartup.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_Startup\src\ResetCause.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\AbortHandler.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagCCRM.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagClockMonitor.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagECC.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagESM.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagFPU.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagIOMM.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagLossOfExec.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagParity.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagResetHandler.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagStaticRegs.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\Cd_uDiagVIM.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\FlsTst.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\FlsTst_Irq.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\OsErrCallouts.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\RednRpdShtdn.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TMS570_uDiag\src\WdgResetHandler.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TqRsDg\src\Ap_TqRsDg.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\TuningSelAuth\src\Ap_TuningSelAuth.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\VehDyn\src\Ap_VehDyn.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\VehSpdLmt\src\Ap_VehSpdLmt.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Xcp\src\Ap_ApXcp.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\CDDInterface\src\Sa_CDDInterface.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\ChkPt\src\Ap_ChkPtAp10.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\ChkPt\src\Ap_ChkPtAp8.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\ChkPt\src\Ap_ChkPtAp9.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\CMS_Fiasa\src\EPS_DiagSrvcs_ISO.Customer.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\CMS_Fiasa\src\EPS_DiagSrvcs_SrvcLUTbl.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\DemIf\src\Ap_DemIf.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\DfltConfigData\src\Ap_DfltConfigData.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\DiagSvc\src\Ap_DiagSvc.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\IoHwAbstractionUsr\src\IoHwAbstractionUsr.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\ApplCallbacks.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\AppStartupCallout.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\EcuM_Callout_Stubs.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\IoHwAb.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\NtWrap.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\RteErrata10.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\RteErrata8.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\RteErrata9.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\SchM.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\CDD\CDD_Data.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\CDD\BasicSysSrvc\EcuStartup.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\CDD\BasicSysSrvc\Interrupts.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\Source\CDD\MtrCtrl\MtrCtrl_Irq.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\SrlComInput\src\Ap_SrlComInput.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\SrlComOutput\src\Ap_SrlComOutput.c</li>
+<li>C:\Users\mzjphh\Desktop\Fiasa_326_327_05.01.00\Fiasa_326_327_EPS_TMS570\SwProject\VehPwrMd\src\Ap_VehPwrMd.c</li>
+</ul>
+
+
+<h3>
+<a name="N004BA728N00CA8F98">A.3    Description of Metrics</a>
+</h3>
+File Metrics
+<br/>
+
+     
+  
+QRFLTOT: Total number of messages in file
+<br/>
+
+     
+  
+QRFLDEN: Message density in file
+<br/>
+
+     
+  
+STBME: Embedded programmer months
+<br/>
+
+     
+  
+STBMO: Organic programmer months
+<br/>
+
+     
+  
+STBMS: Semi-detached programmer months
+<br/>
+
+     
+  
+STBUG: Residual bugs (token-based est.)
+<br/>
+
+     
+  
+STCDN: Comment to code ratio
+<br/>
+
+     
+  
+STDEV: Est. development (programmer-days)
+<br/>
+
+     
+  
+STDIF: Program difficulty
+<br/>
+
+     
+  
+STECT: Number of external variables declared
+<br/>
+
+     
+  
+STEFF: Program effort
+<br/>
+
+     
+  
+STFCO: Estimated function coupling
+<br/>
+
+     
+  
+STFNC: Number of functions in file
+<br/>
+
+     
+  
+STHAL: Halstead prediction of STTOT
+<br/>
+
+     
+  
+STM20: Number of operand occurrences
+<br/>
+
+     
+  
+STM21: Number of operator occurrences
+<br/>
+
+     
+  
+STM22: Number of statements
+<br/>
+
+     
+  
+STM28: Number of non-header comments
+<br/>
+
+     
+  
+STM33: Number of internal comments
+<br/>
+
+     
+  
+STOPN: Number of distinct operands
+<br/>
+
+     
+  
+STOPT: Number of distinct operators
+<br/>
+
+     
+  
+STSCT: Number of static variables declared
+<br/>
+
+     
+  
+STSHN: Shannon information content(bits)
+<br/>
+
+     
+  
+STTDE: Embedded total months
+<br/>
+
+     
+  
+STTDO: Organic total months
+<br/>
+
+     
+  
+STTDS: Semi-detached total months
+<br/>
+
+     
+  
+STTLN: Total preprocessed code lines
+<br/>
+
+     
+  
+STTOT: Total number of tokens used
+<br/>
+
+     
+  
+STTPP: Total unpreprocessed code lines
+<br/>
+
+     
+  
+STVAR: Total number of identifiers
+<br/>
+
+     
+  
+STVOL: Program volume (bits)
+<br/>
+
+     
+  
+STZIP: Zipf prediction of STTOT
+<br/>
+Function Metrics
+<br/>
+
+     
+  
+QRFUTOT: Total number of messages in function
+<br/>
+
+     
+  
+QRFUDEN: Message density in function
+<br/>
+
+     
+  
+STAKI: Akiyama's criterion
+<br/>
+
+     
+  
+STAV1: Average size of statement in function
+<br/>
+
+     
+  
+STAV2: Average size of statement in function
+<br/>
+
+     
+  
+STAV3: Average size of statement in function
+<br/>
+
+     
+  
+STBAK: Number of backwards jumps
+<br/>
+
+     
+  
+STCAL: Number of functions called from function.
+<br/>
+
+     
+  
+STCYC: Cyclomatic complexity
+<br/>
+
+     
+  
+STELF: Number of dangling ELSE IF's
+<br/>
+
+     
+  
+STFN1: Number of operator occurrences in function
+<br/>
+
+     
+  
+STFN2: Number of operand occurrences in function
+<br/>
+
+     
+  
+STGTO: Number of GOTO's
+<br/>
+
+     
+  
+STKDN: Knot density
+<br/>
+
+     
+  
+STKNT: Knot count
+<br/>
+
+     
+  
+STLCT: Number of local variables declared
+<br/>
+
+     
+  
+STLIN: Number of code lines
+<br/>
+
+     
+  
+STLOP: Number of logical operators
+<br/>
+
+     
+  
+STM07: Essential Cyclomatic Complexity
+<br/>
+
+     
+  
+STM19: Number of exit points
+<br/>
+
+     
+  
+STM29: Number of functions calling this function
+<br/>
+
+     
+  
+STMCC: Myer's interval
+<br/>
+
+     
+  
+STMIF: Deepest level of nesting
+<br/>
+
+     
+  
+STPAR: Number of function parameters
+<br/>
+
+     
+  
+STPBG: Residual bugs (STPTH-based est.)
+<br/>
+
+     
+  
+STPDN: Path density (STPTH/STXLN)
+<br/>
+
+     
+  
+STPTH: Estimated static program paths
+<br/>
+
+     
+  
+STRET: Number of return points in function
+<br/>
+
+     
+  
+STST1: Number of statements in function
+<br/>
+
+     
+  
+STST2: Number of statements in function
+<br/>
+
+     
+  
+STST3: Number of statements in function
+<br/>
+
+     
+  
+STSUB: Number of function calls
+<br/>
+
+     
+  
+STUNR: Number of unreachable statements
+<br/>
+
+     
+  
+STUNV: Unused or non-reused variables
+<br/>
+
+     
+  
+STXLN: Number of executable lines
+<br/>
+
+
+<h3>
+<a name="N004BA728N00CAD4E0">A.4    Analysis Options</a>
+</h3>
+<h4>
+<a name="N004BA728N00CAD510">A.4.1    Personality Options</a>
+</h4>
+<pre>
+-align                   int=2,
+                         ldouble=16
+-arithrsh                + (on)
+-bitsigned               + (on)
+-calling                 
+-callpack                
+-comment                 a
+-crossmoduleanalysisfile C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/Tools/QAC/./QAC Output/
+                         Fiasa_326_327_EPS_TMS570
+-d                       __PTRDIFF_T_TYPE__ int,
+                         __TI_COMPILER_VERSION__ 1,
+                         _BIG_ENDIAN,
+                         __16bis__=1,
+                         __inline =,
+                         __SIZE_T_TYPE__=unsigned int,
+                         __WCHAR_T_TYPE__=unsigned short,
+                         _CODE_ACCESS =,
+                         _DATA_ACCESS =,
+                         _DATA_ACCESS_NEAR =,
+                         crc_tbl.h=,
+                         inline =,
+                         interrupt =
+-echo                    
+-enabledataflow          + (on)
+-encoding                ASC
+-expandmultihomedmessages 
+-extensions              asm,
+                         longlong
+-file                    
+-foldplainchar           - (off)
+-forceinclude            
+-forgetall               
+-format                  %?u==0%(%?C%(%^%)%)%?u==0%(%?h%(Err%:Msg%)
+                         %:--&gt;%)(%g:%N) %R(%u,  )%t%?v%(\n%v%)
+-hdrsuppress             + (on)
+-heap                    512
+-help                    - (off)
+-hiddenmessage           - (off)
+-hiddenwarnings          + (on)
+-html                    - (off)
+-i                       C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/NxtrLib/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/StdDef/include/
+                         TMS570_HerculesRegs,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/StdDef/include/
+                         TMS570_4_9_5/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Adc/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/CmMtrCurr/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/CMS_Common/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/DiagMgr/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/DigMSB/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Dma/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/ePWM/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fee/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fls/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/GliwaT1/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/MtrCtrl_CM/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/MtrVel_Digi/
+                         include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/NvMMgr/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/NvMProxy/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/SpiNxt/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/StaMd/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/SVDrvr_CM/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Sweep/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/TMS570_Startup/
+                         include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/TMS570_uDiag/
+                         include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Xcp/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/IoHwAbstractionUsr/
+                         include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/CMS_Fiasa/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/DfltConfigData/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/DiagSvc/include,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Header,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/GenData,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/GenDataOS,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/GenDataRte,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/GenDataRte/
+                         Components,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/CDD,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/CDD/BasicSysSrvc,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/CDD/MtrCtrl,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/_Common,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Can,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/CanIf,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/CanSM,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/CanTp,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/CanXcp,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/CanNm,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Com,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/ComM,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Crc,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Dcm,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Dem,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Det,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Dio,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/EcuM,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Gpt,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/IoHwAb,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Mcu,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/MemIf,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Nm,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/NvM,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Os,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/PduR,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Port,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Vmm,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/VStdLib,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Wdg,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/WdgIf,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/WdgM,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/SwProject/Source/BSW/Xcp,
+                         C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/Tools/QAC/../../StdDef/include/
+                         TMS570_4_9_5/include
+-indentlevel             0
+-intrinsictype           ptrdiff_t=int,
+                         wchar_t=unsigned short
+-k+r                     s
+-line                    + (on)
+-list                    
+-maxcount                0
+-maxerrors               0
+-maxlinelength           0
+-messagesonly            - (off)
+-metrics                 + (on)
+-namelength              63
+-namerulefile            
+-nomsg                   
+-nosort                  - (off)
+-onelineonly             - (off)
+-only                    160-180 184-186 190-204 206-208 232-233 
+                         235 240-241 244 246 261 275 284-289 292 
+                         299 301-313 316-317 320-322 336-339 
+                         341-342 360-362 400-403 410 422-423 
+                         426-427 429-432 435-437 446-454 456-458 
+                         466-469 475-478 481-496 499 513-515 
+                         536-537 540-547 550-551 554-565 570 572 
+                         580-581 588-591 594 601-602 604-605 609 
+                         611-612 614 616-636 638-647 649-651 
+                         653-662 664-665 667-668 671-678 680 
+                         682-686 690 693-694 698-699 706 708-709 
+                         715 723 735-739 745-747 750 755-759 
+                         766-768 770-771 774-775 777 779-781 
+                         801-804 809-814 821 828 830-831 834-837 
+                         841-842 844-845 848 850-854 856-859 
+                         864-867 872-875 877-878 880-881 883-885 
+                         887-888 899 914-915 930 940-945 1001-1003 
+                         1006 1008 1011-1012 1014-1015 1018-1031 
+                         1033-1038 1041-1048 1051-1056 1256-1257 
+                         1264-1266 1281 1290-1299 1317 1330-1333 
+                         1335-1337 1460-1461 1503-1510 1513-1514 
+                         1520 1525-1529 1800 1802-1804 1810-1813 
+                         1820-1824 1830-1834 1840-1844 1850-1854 
+                         1860-1864 1880-1882 1890-1895 2001-2004 
+                         2008-2009 2019-2020 2050-2051 2212 2214 
+                         2462-2463 2469 2547 2742 2744 2771-2772 
+                         2776-2777 2790-2792 2800-2802 2810-2812 
+                         2820-2822 2830-2832 2840-2842 2845-2847 
+                         2850-2853 2855-2857 2860-2862 2871-2872 
+                         2877 2880 2882-2883 2887-2892 2895-2897 
+                         2900-2902 2910-2912 2930-2932 2961-2962 
+                         2971-2972 2980-2986 2990-2996 3001-3002 
+                         3006-3007 3101-3102 3108 3110 3112-3116 
+                         3138 3200 3217-3219 3221-3222 3224-3225 
+                         3230 3234 3236-3239 3244 3260-3263 3307 
+                         3311-3312 3315 3317-3320 3322 3326 3332 
+                         3334-3335 3340-3342 3344 3377 3389 
+                         3391-3400 3402 3406 3408-3413 3415 
+                         3417-3418 3425-3427 3431 3437-3440 
+                         3447-3448 3450-3453 3458 3460-3461 3480 
+                         3601 3610 3628-3629 3635 3659-3660 
+                         3664-3665 3670 3673 3675 3684 4101-4118 
+                         4140 4390-4395 4397-4399 4401-4405 4410 
+                         4412-4415 4420-4425 4430-4432 4434-4437 
+                         4440-4443 4445-4447 4450-4454 4460-4465 
+                         4470-4472 4480-4482 4490-4492 4498-4505 
+                         4507 4510-4514 4517-4519 4528-4529 
+                         4532-4533 4538-4539 4548-4549 4558-4559 
+                         4568-4569 4600-4608 4800 5013 5087 
+                         5118-5120 5122-5127
+-outputpath              C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/Tools/QAC/./QAC Output
+-overwrite               - (off)
+-ppfilename              - (off)
+-pplist                  - (off)
+-ppmetrics               - (off)
+-prodoption              df::query_timeout=60001,
+                         df::function_timeout=60000
+-quiet                   C:/Users/mzjphh/Desktop/
+                         Fiasa_326_327_05.01.00/Fiasa_326_327_EPS_T
+                         MS570/Tools/QAC/../../StdDef/include/
+                         TMS570_4_9_5/include
+-references              - (off)
+-remark                  
+-settings                - (off)
+-size                    int=16,
+                         ldouble=128
+-skippragma              DATA_SECTION*,
+                         INTERRUPT*,
+                         WEAK*
+-slashwhite              - (off)
+-standard                + (on)
+-strict                  + (on)
+-strictrank              - (off)
+-strictsignedness        + (on)
+-style                   exdented
+-summary                 - (off)
+-suppresslvl             
+-tablesummary            - (off)
+-tabstop                 8
+-textonly                - (off)
+-threshold               
+-total                   - (off)
+-unsignedchar            - (off)
+-usrfile                 .m2cm
+-usrpath                 C:/PRQA/QAC-8.1.1-R/m2cm/messages/
+-version                 - (off)
+-via                     
+-warncall                abort=5126,
+                         asctime=5127,
+                         atof=5125,
+                         atoi=5125,
+                         atol=5125,
+                         calloc=5118,
+                         clock=5127,
+                         ctime=5127,
+                         difftime=5127,
+                         exit=5126,
+                         free=5118,
+                         getenv=5126,
+                         gmtime=5127,
+                         localtime=5127,
+                         longjmp=5122,
+                         malloc=5118,
+                         mktime=5127,
+                         raise=5123,
+                         realloc=5118,
+                         signal=5123,
+                         strftime=5127,
+                         system=5126,
+                         time=5127
+-xcase                   + (on)
+-xnamelength             63
+</pre>
+
+
+<h3>
+<a name="N004BA728N00CAD570">A.5    Report Settings</a>
+</h3>
+<pre>
+Class Metrics:
+No metrics selected
+File Metrics:
+No metrics selected
+Function Metrics:
+No metrics selected
+Project Metrics:
+No metrics selected
+full_name: No
+bar_style: diamond
+</pre>
+
+
+<h3>
+<a name="N004BA728N00CAD5D0">A.6    Program Details</a>
+</h3>
+Created by Programming Research standard.prdf.generator version 1.2
+
+</div>
+</body>
+</html>

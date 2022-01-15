@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\tessy"
+    description=""
+    enableSourceRoot="true"
+    sourceRoot="$(PROJECTROOT)\IoHwAbstractionUsr\src"
+    identifier="fc59e9bb-cdcc-4643-8ff8-7129d9ad27ec"
+    location="$(PROJECTROOT)\tessy"
+    name="IoHwAbstractionUsr_FIASA"
+    projectVersion="3"
+    tessyVersion="3.1.13"
+    isTemplate="false"/>

@@ -1,0 +1,16 @@
+VersionTag45
+ProjectDataflowFile=..\..\..\QAC\Preset_4.p_d
+StartProjectMarker
+FolderName=AssistFirewall
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=Ap_AssistFirewall
+SourcePath=
+OutputPath=..\..\doc\QAC_Results
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_AssistFirewall.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\Ap_AssistFirewall.c
+EndContainedFilesMarker
+EndSubProjectMarker

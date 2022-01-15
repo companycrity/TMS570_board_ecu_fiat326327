@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+
+<prdf:section created_by='standard.prdf.generator' created_by_version='1.2'
+ xmlns:prdf='http://www.programmingresearch.com/todo'
+ xmlns:svg='http://www.w3.org/2000/svg'
+ xmlns:v='urn:schemas-microsoft-com:vml' >
+<prdf:text bold='1'>Quality Summary</prdf:text>
+<prdf:table class='center'>
+<prdf:col_width width='75%'/>
+<prdf:col_width width='25%'/>
+<prdf:row>
+<prdf:cell align='left'>Total Number of Files</prdf:cell>
+<prdf:cell align='right'>543</prdf:cell>
+</prdf:row>
+<prdf:row>
+<prdf:cell align='left'>Lines of Code</prdf:cell>
+<prdf:cell align='right'>236662</prdf:cell>
+</prdf:row>
+<prdf:row>
+<prdf:cell align='left'>Number of Source Files</prdf:cell>
+<prdf:cell align='right'>135</prdf:cell>
+</prdf:row>
+<prdf:row>
+<prdf:cell align='left'>Number of File Metrics</prdf:cell>
+<prdf:cell align='right'>32</prdf:cell>
+</prdf:row>
+<prdf:row>
+<prdf:cell align='left'>Number of Functions</prdf:cell>
+<prdf:cell align='right'>979</prdf:cell>
+</prdf:row>
+<prdf:row>
+<prdf:cell align='left'>Number of Function Metrics</prdf:cell>
+<prdf:cell align='right'>35</prdf:cell>
+</prdf:row>
+</prdf:table>
+</prdf:section>

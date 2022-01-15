@@ -1,0 +1,126 @@
+
+MICROSAR DB Update Version 2.7.0.0
+Copyright (c) 2010 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+
+[info]    DbUpdateConsoleApplication: Copyright © Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+
+Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config
+Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrDbUpdate\DbUpdateConsoleApplication.exe" -w "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml" -c "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\Components" -i "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC" -l "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\\GenUpdateECUC.log"  "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml"  -n'
+
+Updating EcuC-Project started at 2016-03-01 14:37:52
+
+[info]    DbUpdateConsoleApplication: Running MICROSAR Initial EcuC Generator with '-a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2016-03-01_14-37-52" '...
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -a "03.02.01" "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\System\EPS_SystemDescr_EPS.arxml" -r "C:\Users\nzdx8v\AppData\Local\Temp\\initial-ecuc-gen_output_2016-03-01_14-37-52"  --minimumEcuCMode'
+
+Generating EcuC-Project started at 2016-03-01 14:37:53
+
+[Info]        GenTool_CsAsrInitialEcuC: Processing system-extract 'EPS_SystemDescr_EPS.arxml'...
+
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Can
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanIf
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanSM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanTp
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Com
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: CanNm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Nm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuC
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: PduR
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: ComM
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: Dcm
+   [Info]        GenTool_CsAsrInitialEcuC: New Module: EcuM
+
+   [Info]        GenTool_CsAsrInitialEcuC: Postprocessing parameters...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished Postprocessing parameters
+
+   [Info]        GenTool_CsAsrInitialEcuC: Decorating Shortnames...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished decorating Shortnames
+
+   [Info]        GenTool_CsAsrInitialEcuC: Tailoring initial EcuC file...
+   [Info]        GenTool_CsAsrInitialEcuC: Finished tailoring initial EcuC file
+
+[Info]        GenTool_CsAsrInitialEcuC: Finished processing system-extract 'EPS_SystemDescr_EPS.arxml'.
+
+
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+
+[Info]        GenTool_CsAsrInitialEcuC: Saving files...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving files
+
+
+0 Errors
+0 Warnings
+
+Generating EcuC-Project finished at 2016-03-01 14:37:55
+
+[info]    DbUpdateConsoleApplication: Finished Running MICROSAR Initial EcuC Generator.
+
+[info]    DbUpdateConsoleApplication: Loading to-project 'EPS_SystemDescr_EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading to-project
+
+ 
+MICROSAR Initial EcuC Generator Version 2.16.1.0
+Copyright (c) 2012 Vector Informatik GmbH
+Installed DataServer-version: 2.3.0.4
+
+[Info]        GenTool_CsAsrInitialEcuC: Copyright c Vector Informatik GmbH 2014
+The usage of this tool (CBD1300649 D00) is restricted to:
+- FOR THE ECU-PROJECT EPS
+- FOR THE OEM FIAT
+Please contact Vector Informatik whenever you need further information concerning the license conditions.
+
+[Info]        GenTool_CsAsrInitialEcuC: Startup directory: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC
+[Info]        GenTool_CsAsrInitialEcuC: Used commandline-parameters: '"C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Generators\GenTool_CsAsrInitialEcuC\GenTool_CsAsrInitialEcuC.exe" -n "C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.ecuc.vdsxml"'
+
+[Info]        GenTool_CsAsrInitialEcuC: Loading project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished loading project 'EPS.ecuc.vdsxml'
+
+[Info]        GenTool_CsAsrInitialEcuC: Adjusting short-names...
+[Info]        GenTool_CsAsrInitialEcuC: Finished adjusting short-names
+
+[Info]        GenTool_CsAsrInitialEcuC: Saving project 'EPS.ecuc.vdsxml'...
+[Info]        GenTool_CsAsrInitialEcuC: Finished saving project 'EPS.ecuc.vdsxml'
+
+[info]    DbUpdateConsoleApplication: Loading from-project 'EPS.ecuc.vdsxml'...
+[info]    DbUpdateConsoleApplication: Finished loading from-project
+
+[info]    DbUpdateConsoleApplication: Setting up result-project...
+[info]    DbUpdateConsoleApplication: Finished setting up result-project
+
+[info]    DbUpdateConsoleApplication: Pre-processing configurations...
+[info]    DbUpdateConsoleApplication: Finished pre-processing configurations
+
+[info]    DbUpdateConsoleApplication: Performing update...
+   [info]    DbUpdateConsoleApplication: Found 17 updated entries: Changed 0 | Added 17 | Removed 0 | Overwritten 0 | Others 0
+   [info]    DbUpdateConsoleApplication: HTML Update-Report: C:\Synergy\EA3\Working\Fiasa_326_327\Fiasa_326_327_03.05.01\Fiasa_326_327_EPS_TMS570\Tools\AsrProject\Config\ECUC\EPS.diff.index.html
+[info]    DbUpdateConsoleApplication: Finished performing update
+
+[info]    DbUpdateConsoleApplication: Post-processing result-configuration...
+[info]    DbUpdateConsoleApplication: Finished post-processing result-configuration
+
+[info]    DbUpdateConsoleApplication: Saving result-configuration...
+[info]    DbUpdateConsoleApplication: Finished saving result-configuration
+
+0 Errors
+0 Warnings
+
+
+Updating EcuC-Project finished at 2016-03-01 14:38:06
+

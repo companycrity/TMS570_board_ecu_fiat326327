@@ -1,0 +1,351 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\I2cNxtr\utp\Tessy\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\I2cNxtr\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "SpoortiM"
+Created          : 01.04.2014 13:26
+Last Changed     : 25.07.2014 19:04
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "I2cNxtr"
+      Comment     : "****************************************UNIT TEST DESCRIPTION***********************************\r\nName of Tester: Spoorti Mali\r\nCode File(s) Under Test: I2cNxtr.c\r\nCode File(s) Version: 2\r\nModule Design Document: I2cNxtr_MDD.docx\r\nModule Design Document Version: 5\r\nData Dictionary Version: 1\r\nUnit Test Plan Version: 2\r\nOptimization Level: Level 2\r\nCompiler (CodeGen) Version: TMS470_4.9.5\r\nModel Type: Excel Macro\r\nModel Version: Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes): 550\r\nTotal RAM Used (Bytes): 12\r\nTotal CALS Used (Bytes): 0\r\nSpecial Test Requirements:\r\nTest Date: 07-25-2014\r\nComments:\r\n1)The map  file""CBD_Sandbox_dbg.map"" is embedded for reference.\r\n2) 100%  coverage can not achieved for """"I2c_Send""""  and """"I2c_SetRecv""""function because the condition  """"While (BitwiseAND(I2cRegPtr_Cnt_T_str.STR, I2C_TX_INT) = 0)"""" can not be satified as it goes into infinite loop.\n\r\n3)""""I2cNxtr_I2cTransfer_Cnt_M_str_DataPtr_Cnt_u08_add"""",  """"DataPtr_Cnt_T_u08_add"""" and """"I2cNxtr_I2cTransfer_Cnt_M_str.DataPtr_Cnt1_u08"""" temp variables are newly added for testing address in """"I2c_Send""""  and """"I2c_SetRecv""""functions.\n\r\n4)In """"I2c_Send""""  and """"I2c_SetRecv"""" function extra code is added in VBA to replicate the  functionality of source code and TESSY.\r\n\n5) The range of """"Length_Cnt_T_u32"""" and """" I2cNxtr_I2cTransfer_Cnt_M_str.Length_Cnt_u32"""" is 0 to 4294967295 but is considered to be 0 to 255 for testing purpose to resrtict the array size of parameter """"DataPtr_Cnt_T_u08""""  and structure variable I2cNxtr_I2cTransfer_Cnt_M_str.DataPtr_Cnt_u08 upto 256 in the fuctions """"I2c_Send"""" and """"I2c_SetRecv"""".\r\n\n6) In Tessy the target for I2cNxtr_I2cTransfer_Cnt_M_str.DataPtr_Cnt_u08 is created with a different name as """"tgt_DataPtr_Cnt1_u08""""  for testing purpose in the functions """" I2cSend"""" and """"I2cSetRcv""""\n.\r\n7) In the function""""I2cSend"""" the target  """"tgt_DataPtr_Cnt1_u08"""" and the values of the this particular target are ignored for the vectors """"TS1.2,TS2.1,TS2.3,TS2.6,TS2.8,TS2.10,TS2.12,TS2.14,TS2.16,TS2.17,TS3.2"""" as the target names do not match.\r\n\n8) In the function""""I2cSetRcv"""" the target  """"tgt_DataPtr_Cnt1_u08"""" and the values of the this particular target are ignored for all the vectors as they are being verified manually.\r\n\n9) The output  value for the functions""""I2c_SetFunctional"""", """"I2c_SetBit"""", """"I2c_EnableNotification"""", """"I2c_DisableNotification"""", """"I2c_GetIntVect"""", """"I2c_SetStatus"""" is going beyond mentioned range in MDD which will not have any functional impact and will be resolved as continuous improvement.\r\n\n10) The range for the parameter """"Baud_Hz_T_u32"""" in the function""""I2c_SetBaudrate"""" is considered to be 100000 to 400000 for testing purpose.""\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=, const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\I2cNxtr\utp\contract, $(PROJECTROOT)\I2cNxtr\include, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\StdDef\include\TMS570_HerculesRegs, $(ProgramFiles)\Texas Instruments\ccsv4\tools\compiler\tms470_4.9.5\include"
+         End
+         Property
+            Name  : "Enable ASAP"
+            Type  : "Boolean"
+            Flags : 0x40000069
+            Value : "1"
+         End
+      End
+      Source File
+         Name : "I2cNxtr.c"
+         Path : "$(PROJECTROOT)\I2cNxtr\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "I2c_Init"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_Enable"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_Reset"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetupMasterTransmit"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetupMasterReceive"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SwitchMasterReceive"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetCount"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetOwnAdd"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetSlaveAdd"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetFunctional"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetBaudrate"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_IsTxReady"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SendByte"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_Send"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_IsRxReady"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_RxError"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_ReceiveByte"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetRecv"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetDirection"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetBit"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_GetBit"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_EnableNotification"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_DisableNotification"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_GenStartCond"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_GenStopCond"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_GetIntVect"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_GetStatus"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "I2c_SetStatus"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

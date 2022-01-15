@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:prdf="http://www.programmingresearch.com/todo">
+<head>
+<title>Compliance Report : Fiasa_326_327_EPS_TMS570</title>
+<style type="text/css">
+.lightheader{ background-color: lightgreen; }
+.boldheader{ background-color: lime; }
+.center{ text-align: center; margin: 0 auto; }
+.left{ text-align: left; margin: 0 auto; }
+.rotate{ direction: ltr; writing-mode: tb-rl; }
+v\:* { behavior: url(#default#VML); }
+table.prdftable,td,th{
+            border-style: None;
+            border-color: White;
+            border-collapse: collapse;
+            border-width: 1px;
+}
+body{ font-family: Default; }
+</style>
+</head>
+<body>
+<div>
+<h2>
+<a name="N0066A738N00B8C6B0">A    Report Statistics</a>
+</h2>
+Note that headers in suppressed directories are ignored in the following statistics.
+<br/>
+The number of files is the number of source files in the project, plus the number of header files included by the source.
+<br/>
+The Lines of Code is the sum of the metric STTPP (number of unpreprocessed lines) for each source file plus the number of (unpreprocessed) lines in all the included header files.
+<br/>
+The total number of messages is the sum of all messages appearing in all files. Messages in header files are only counted once, even if they are included in more than one source file.
+<br/>
+The number of violated groups is the number of message groups that have at least one message appearing in the files. The number of Compliant groups is the difference between the total number of groups and the number of violated groups.
+<br/>
+<h3>
+<a name="N0066A738N00B8C8C0">A.1    Calculation of Compliance Index</a>
+</h3>
+The Compliance Index is the percentage of groups which have no messages in them.
+<br/>
+For each file it is calculated as follows:
+<br/>
+<br/>
+( <i>N<sub>total</sub> - N<sub>error</sub>
+</i> ) / <i>N<sub>total</sub>
+</i> x 100
+<br/>
+<br/>
+
+<i>N<sub>total</sub>
+</i> is the total number of message groups.
+<br/>
+
+<i>N<sub>error</sub>
+</i> is the number of groups for which messages appear in that file.
+<br/>
+The File Compliance Index is the mean of all the individual file compliances.
+<br/>
+The Project Compliance Index is calculated in a similar way but with <i>N<sub>error</sub>
+</i> as the number of groups for which messages appear in all analysed files.
+<br/>
+A high File Compliance Index and low Project Compliance Index indicates that each file violates only a small number of rules but each file violates a different rule.
+<br/>
+If the Compliance Indices are close then each file is violating more or less the same rules.
+
+
+</div>
+</body>
+</html>

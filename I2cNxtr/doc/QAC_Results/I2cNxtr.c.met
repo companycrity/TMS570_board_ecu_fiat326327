@@ -1,0 +1,1930 @@
+<RDEF> I Includes
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 36
+<DEFINE> __I2C_H__ C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 34 I DF OM - - - O
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 38
+<DEFINE> I2C_REGS_H C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 29 I DF OM - - - O
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 34
+<DEFINE> STD_TYPES_H C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<DEFINE> i2cctrlregs C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 36 I DC TG F N {si2cctrlregs} -
+<DEFINE> i2cctrlregs C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 36 I DF TG F N {si2cctrlregs} -
+<DEFINE> OAR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 39 I DC MB F N ul -
+<DEFINE> IMR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 40 I DC MB F N ul -
+<DEFINE> STR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 41 I DC MB F N ul -
+<DEFINE> CLKL C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 42 I DC MB F N ul -
+<DEFINE> CLKH C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 43 I DC MB F N ul -
+<DEFINE> CNT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 44 I DC MB F N ul -
+<DEFINE> DRR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 45 I DC MB F N ul -
+<DEFINE> SAR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 46 I DC MB F N ul -
+<DEFINE> DXR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 47 I DC MB F N ul -
+<DEFINE> MDR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 48 I DC MB F N ul -
+<DEFINE> IVR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 49 I DC MB F N ul -
+<DEFINE> EMDR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 50 I DC MB F N ul -
+<DEFINE> PSC C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 51 I DC MB F N ul -
+<DEFINE> PID11 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 52 I DC MB F N ul -
+<DEFINE> PID12 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 53 I DC MB F N ul -
+<DEFINE> DMAC C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 54 I DC MB F N ul -
+<LIT> 32 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 55 14 I DN ui F B
+<DEFINE> - C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 55 I DC MB F N ub -
+<LIT> 32 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 56 14 I DN ui F B
+<DEFINE> - C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 56 I DC MB F N ub -
+<DEFINE> FUN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 57 I DC MB F N ul -
+<DEFINE> DIR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 58 I DC MB F N ul -
+<DEFINE> DIN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 59 I DC MB F N ul -
+<DEFINE> DOUT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 60 I DC MB F N ul -
+<DEFINE> SET C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 61 I DC MB F N ul -
+<DEFINE> CLR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 62 I DC MB F N ul -
+<DEFINE> ODR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 63 I DC MB F N ul -
+<DEFINE> PD C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 64 I DC MB F N ul -
+<DEFINE> PSL C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 65 I DC MB F N ul -
+<DEFINE> i2cctrlregs_t C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 66 I DC OT F N ^{si2cctrlregs} -
+<DEFINE> i2cREG1 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 68 I DF OM - - - O
+<LIT> 0xFFF7D400 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/TMS570_HerculesRegs/i2c_regs.h 68 35 I HN - F M
+<DEFINE> Mode_Cnt_b32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 41 I DC MB F N ul -
+<DEFINE> Length_Cnt_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 42 I DC MB F N ul -
+<DEFINE> DataPtr_Cnt_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 43 I DC MB F N puc -
+<DEFINE> I2cTransferType C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 44 I DC OT F N {s} -
+<EXTN> I2cNxtr_I2cTransfer_Cnt_M_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 46
+<DEFINE> I2cNxtr_I2cTransfer_Cnt_M_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 46 I DC OV F X {sI2cTransferType} S
+<DEFINE> i2cMode C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 54 I DF TG F N {ei2cMode} -
+<LIT> 0x0008 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 56 27 I HN ui F E
+<DEFINE> I2C_FD_FORMAT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 56 I DC OE F N ne -
+<DEFINE> I2C_FD_FORMAT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 56 I DF OE F N ne -
+<LIT> 0x0010 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 57 27 I HN ui F E
+<DEFINE> I2C_START_BYTE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 57 I DC OE F N ne -
+<DEFINE> I2C_START_BYTE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 57 I DF OE F N ne -
+<LIT> 0x0020 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 58 27 I HN ui F E
+<DEFINE> I2C_RESET_OUT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 58 I DC OE F N ne -
+<DEFINE> I2C_RESET_OUT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 58 I DF OE F N ne -
+<LIT> 0x0000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 58 54 I HN ui F E
+<DEFINE> I2C_RESET_IN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 58 I DC OE F N ne -
+<DEFINE> I2C_RESET_IN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 58 I DF OE F N ne -
+<LIT> 0x0040 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 59 27 I HN ui F E
+<DEFINE> I2C_DLOOPBACK C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 59 I DC OE F N ne -
+<DEFINE> I2C_DLOOPBACK C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 59 I DF OE F N ne -
+<LIT> 0x0080 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 60 27 I HN ui F E
+<DEFINE> I2C_REPEATMODE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 60 I DC OE F N ne -
+<DEFINE> I2C_REPEATMODE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 60 I DF OE F N ne -
+<LIT> 0x0100 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 61 27 I HN ui F E
+<DEFINE> I2C_10BIT_AMODE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 61 I DC OE F N ne -
+<DEFINE> I2C_10BIT_AMODE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 61 I DF OE F N ne -
+<LIT> 0x0000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 61 54 I HN ui F E
+<DEFINE> I2C_7BIT_AMODE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 61 I DC OE F N ne -
+<DEFINE> I2C_7BIT_AMODE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 61 I DF OE F N ne -
+<LIT> 0x0200 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 62 27 I HN ui F E
+<DEFINE> I2C_TRANSMITTER C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 62 I DC OE F N ne -
+<DEFINE> I2C_TRANSMITTER C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 62 I DF OE F N ne -
+<LIT> 0x0000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 62 54 I HN ui F E
+<DEFINE> I2C_RECEIVER C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 62 I DC OE F N ne -
+<DEFINE> I2C_RECEIVER C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 62 I DF OE F N ne -
+<LIT> 0x0400 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 63 27 I HN ui F E
+<DEFINE> I2C_MASTER C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 63 I DC OE F N ne -
+<DEFINE> I2C_MASTER C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 63 I DF OE F N ne -
+<LIT> 0x0000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 63 54 I HN ui F E
+<DEFINE> I2C_SLAVE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 63 I DC OE F N ne -
+<DEFINE> I2C_SLAVE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 63 I DF OE F N ne -
+<LIT> 0x0800 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 64 27 I HN ui F E
+<DEFINE> I2C_STOP_COND C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 64 I DC OE F N ne -
+<DEFINE> I2C_STOP_COND C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 64 I DF OE F N ne -
+<LIT> 0x2000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 65 27 I HN ui F E
+<DEFINE> I2C_START_COND C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 65 I DC OE F N ne -
+<DEFINE> I2C_START_COND C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 65 I DF OE F N ne -
+<LIT> 0x4000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 66 27 I HN ui F E
+<DEFINE> I2C_FREE_RUN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 66 I DC OE F N ne -
+<DEFINE> I2C_FREE_RUN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 66 I DF OE F N ne -
+<LIT> 0x8000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 67 27 I HN ui F E
+<DEFINE> I2C_NACK_MODE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 67 I DC OE F N ne -
+<DEFINE> I2C_NACK_MODE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 67 I DF OE F N ne -
+<DEFINE> i2cBitCount C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 76 I DF TG F N {ei2cBitCount} -
+<LIT> 0x2 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 78 23 I HN ui F E
+<DEFINE> I2C_2_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 78 I DC OE F N ne -
+<DEFINE> I2C_2_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 78 I DF OE F N ne -
+<LIT> 0x3 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 79 23 I HN ui F E
+<DEFINE> I2C_3_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 79 I DC OE F N ne -
+<DEFINE> I2C_3_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 79 I DF OE F N ne -
+<LIT> 0x4 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 80 23 I HN ui F E
+<DEFINE> I2C_4_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 80 I DC OE F N ne -
+<DEFINE> I2C_4_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 80 I DF OE F N ne -
+<LIT> 0x5 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 81 23 I HN ui F E
+<DEFINE> I2C_5_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 81 I DC OE F N ne -
+<DEFINE> I2C_5_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 81 I DF OE F N ne -
+<LIT> 0x6 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 82 23 I HN ui F E
+<DEFINE> I2C_6_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 82 I DC OE F N ne -
+<DEFINE> I2C_6_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 82 I DF OE F N ne -
+<LIT> 0x7 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 83 23 I HN ui F E
+<DEFINE> I2C_7_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 83 I DC OE F N ne -
+<DEFINE> I2C_7_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 83 I DF OE F N ne -
+<LIT> 0x0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 84 23 I HN ui F E
+<DEFINE> I2C_8_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 84 I DC OE F N ne -
+<DEFINE> I2C_8_BIT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 84 I DF OE F N ne -
+<LIT> 0x0001 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 96 26 I HN ui F E
+<DEFINE> I2C_AL_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 96 I DC OE F N ne -
+<DEFINE> I2C_AL_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 96 I DF OE F N ne -
+<LIT> 0x0002 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 97 26 I HN ui F E
+<DEFINE> I2C_NACK_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 97 I DC OE F N ne -
+<DEFINE> I2C_NACK_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 97 I DF OE F N ne -
+<LIT> 0x0004 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 98 26 I HN ui F E
+<DEFINE> I2C_ARDY_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 98 I DC OE F N ne -
+<DEFINE> I2C_ARDY_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 98 I DF OE F N ne -
+<LIT> 0x0008 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 99 26 I HN ui F E
+<DEFINE> I2C_RX_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 99 I DC OE F N ne -
+<DEFINE> I2C_RX_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 99 I DF OE F N ne -
+<LIT> 0x0010 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 100 26 I HN ui F E
+<DEFINE> I2C_TX_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 100 I DC OE F N ne -
+<DEFINE> I2C_TX_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 100 I DF OE F N ne -
+<LIT> 0x0020 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 101 26 I HN ui F E
+<DEFINE> I2C_SCD_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 101 I DC OE F N ne -
+<DEFINE> I2C_SCD_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 101 I DF OE F N ne -
+<LIT> 0x0040 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 102 26 I HN ui F E
+<DEFINE> I2C_AAS_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 102 I DC OE F N ne -
+<DEFINE> I2C_AAS_INT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 102 I DF OE F N ne -
+<LIT> 0x0800 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 103 28 I HN ui F E
+<DEFINE> I2C_RECV_OVERRUN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 103 I DC OE F N ne -
+<DEFINE> I2C_RECV_OVERRUN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 103 I DF OE F N ne -
+<DEFINE> i2cIntFlags C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 105 I DC OT F N {e} -
+<DEFINE> i2cStatFlags C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 112 I DF TG F N {ei2cStatFlags} -
+<LIT> 0x0001 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 114 26 I HN ui F E
+<DEFINE> I2C_AL C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 114 I DC OE F N ne -
+<DEFINE> I2C_AL C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 114 I DF OE F N ne -
+<LIT> 0x0002 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 115 26 I HN ui F E
+<DEFINE> I2C_NACK C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 115 I DC OE F N ne -
+<DEFINE> I2C_NACK C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 115 I DF OE F N ne -
+<LIT> 0x0004 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 116 26 I HN ui F E
+<DEFINE> I2C_ARDY C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 116 I DC OE F N ne -
+<DEFINE> I2C_ARDY C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 116 I DF OE F N ne -
+<LIT> 0x0008 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 117 26 I HN ui F E
+<DEFINE> I2C_RX C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 117 I DC OE F N ne -
+<DEFINE> I2C_RX C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 117 I DF OE F N ne -
+<LIT> 0x0010 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 118 26 I HN ui F E
+<DEFINE> I2C_TX C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 118 I DC OE F N ne -
+<DEFINE> I2C_TX C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 118 I DF OE F N ne -
+<LIT> 0x0020 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 119 26 I HN ui F E
+<DEFINE> I2C_SCD C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 119 I DC OE F N ne -
+<DEFINE> I2C_SCD C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 119 I DF OE F N ne -
+<LIT> 0x0100 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 120 26 I HN ui F E
+<DEFINE> I2C_AD0 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 120 I DC OE F N ne -
+<DEFINE> I2C_AD0 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 120 I DF OE F N ne -
+<LIT> 0x0200 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 121 26 I HN ui F E
+<DEFINE> I2C_AAS C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 121 I DC OE F N ne -
+<DEFINE> I2C_AAS C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 121 I DF OE F N ne -
+<LIT> 0x0400 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 122 26 I HN ui F E
+<DEFINE> I2C_XSMT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 122 I DC OE F N ne -
+<DEFINE> I2C_XSMT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 122 I DF OE F N ne -
+<LIT> 0x0800 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 123 26 I HN ui F E
+<DEFINE> I2C_RXFULL C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 123 I DC OE F N ne -
+<DEFINE> I2C_RXFULL C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 123 I DF OE F N ne -
+<LIT> 0x1000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 124 26 I HN ui F E
+<DEFINE> I2C_BUSBUSY C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 124 I DC OE F N ne -
+<DEFINE> I2C_BUSBUSY C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 124 I DF OE F N ne -
+<LIT> 0x2000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 125 26 I HN ui F E
+<DEFINE> I2C_NACKSNT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 125 I DC OE F N ne -
+<DEFINE> I2C_NACKSNT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 125 I DF OE F N ne -
+<LIT> 0x4000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 126 26 I HN ui F E
+<DEFINE> I2C_SDIR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 126 I DC OE F N ne -
+<DEFINE> I2C_SDIR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 126 I DF OE F N ne -
+<DEFINE> i2cDMA C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 135 I DF TG F N {ei2cDMA} -
+<LIT> 0x20 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 137 23 I HN ui F E
+<DEFINE> I2C_TXDMA C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 137 I DC OE F N ne -
+<DEFINE> I2C_TXDMA C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 137 I DF OE F N ne -
+<LIT> 0x10 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 138 23 I HN ui F E
+<DEFINE> I2C_RXDMA C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 138 I DC OE F N ne -
+<DEFINE> I2C_RXDMA C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 138 I DF OE F N ne -
+<DEFINE> i2c_config_reg C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 142 I DC TG F N {si2c_config_reg} -
+<DEFINE> i2c_config_reg C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 142 I DF TG F N {si2c_config_reg} -
+<DEFINE> CONFIG_OAR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 144 I DC MB F N ul -
+<DEFINE> CONFIG_IMR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 145 I DC MB F N ul -
+<DEFINE> CONFIG_CLKL C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 146 I DC MB F N ul -
+<DEFINE> CONFIG_CLKH C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 147 I DC MB F N ul -
+<DEFINE> CONFIG_CNT C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 148 I DC MB F N ul -
+<DEFINE> CONFIG_SAR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 149 I DC MB F N ul -
+<DEFINE> CONFIG_MDR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 150 I DC MB F N ul -
+<DEFINE> CONFIG_EMDR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 151 I DC MB F N ul -
+<DEFINE> CONFIG_PSC C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 152 I DC MB F N ul -
+<DEFINE> CONFIG_DMAC C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 153 I DC MB F N ul -
+<DEFINE> CONFIG_FUN C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 154 I DC MB F N ul -
+<DEFINE> CONFIG_DIR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 155 I DC MB F N ul -
+<DEFINE> CONFIG_ODR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 156 I DC MB F N ul -
+<DEFINE> CONFIG_PD C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 157 I DC MB F N ul -
+<DEFINE> CONFIG_PSL C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 158 I DC MB F N ul -
+<DEFINE> i2c_config_reg_t C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 159 I DC OT F N {si2c_config_reg} -
+<DEFINE> I2C_OAR_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 163 I DF OM - - - O
+<LIT> 0x00000000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 163 37 I HN - F M
+<DEFINE> I2C_IMR_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 170 I DF OM - - - O
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 164 37 I ON - F M
+<LIT> 6 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 164 43 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 165 69 I ON - F M
+<LIT> 5 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 165 75 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 166 69 I ON - F M
+<LIT> 4 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 166 75 I DN - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 167 69 I DN - F M
+<LIT> 3 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 167 75 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 168 69 I ON - F M
+<LIT> 2 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 168 75 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 169 69 I ON - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 169 75 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 170 69 I ON - F M
+<DEFINE> I2C_CLKL_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 172 I DF OM - - - O
+<LIT> 35 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 172 37 I DN - F M
+<DEFINE> I2C_CLKH_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 173 I DF OM - - - O
+<LIT> 35 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 173 37 I DN - F M
+<DEFINE> I2C_CNT_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 174 I DF OM - - - O
+<LIT> 8 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 174 37 I DN - F M
+<DEFINE> I2C_SAR_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 175 I DF OM - - - O
+<LIT> 0x00000000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 175 37 I HN - F M
+<DEFINE> I2C_MDR_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 184 I DF OM - - - O
+<LIT> 0x00000000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 176 37 I HN - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 177 69 I DN - F M
+<LIT> 11 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 177 74 I DN - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 178 69 I DN - F M
+<LIT> 10 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 178 74 I DN - F M
+<LIT> 0 - P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 181 69 I ON - F M
+<LIT> 7 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 181 74 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 182 69 I ON - F M
+<DEFINE> I2C_EMDR_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 186 I DF OM - - - O
+<LIT> 0x00000001 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 186 37 I HN - F M
+<DEFINE> I2C_PSC_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 187 I DF OM - - - O
+<LIT> 9 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 187 37 I DN - F M
+<DEFINE> I2C_DMAC_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 188 I DF OM - - - O
+<LIT> 0x00000000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 188 37 I HN - F M
+<DEFINE> I2C_FUN_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 189 I DF OM - - - O
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 189 37 I ON - F M
+<DEFINE> I2C_DIR_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 191 I DF OM - - - O
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 190 37 I ON - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 190 43 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 191 69 I ON - F M
+<DEFINE> I2C_ODR_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 193 I DF OM - - - O
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 192 37 I ON - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 192 43 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 193 69 I ON - F M
+<DEFINE> I2C_PD_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 195 I DF OM - - - O
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 194 37 I ON - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 194 43 I DN - F M
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 195 69 I ON - F M
+<DEFINE> I2C_PSL_CONFIGVALUE C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 197 I DF OM - - - O
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 196 37 I DN - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 196 43 I DN - F M
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 197 69 I DN - F M
+<EXTN> I2c_Init C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 200
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 201 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_Init C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 200 I DC OF F X (.,=p^{si2cctrlregs}) -
+<EXTN> I2c_Enable C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 203
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 204 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_Enable C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 203 I DC OF F X (.,=p^{si2cctrlregs}) -
+<EXTN> I2c_Reset C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 206
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 207 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_Reset C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 206 I DC OF F X (.,=p^{si2cctrlregs}) -
+<EXTN> I2c_SetupMasterTransmit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 209
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 210 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> SlaveAddress_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 211 I DC OV P N uc R
+<DEFINE> DataLength_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 212 I DC OV P N us R
+<DEFINE> I2c_SetupMasterTransmit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 209 I DC OF F X (.,=p^{si2cctrlregs},uc,us) -
+<EXTN> I2c_SetupMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 214
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 215 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> SlaveAddress_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 216 I DC OV P N uc R
+<DEFINE> DataLength_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 217 I DC OV P N us R
+<DEFINE> I2c_SetupMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 214 I DC OF F X (.,=p^{si2cctrlregs},uc,us) -
+<EXTN> I2c_SwitchMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 219
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 220 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> DataLength_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 221 I DC OV P N us R
+<DEFINE> I2c_SwitchMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 219 I DC OF F X (.,=p^{si2cctrlregs},us) -
+<EXTN> I2c_SetCount C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 223
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 224 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Count_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 225 I DC OV P N us R
+<DEFINE> I2c_SetCount C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 223 I DC OF F X (.,=p^{si2cctrlregs},us) -
+<EXTN> I2c_SetOwnAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 227
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 228 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Address_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 229 I DC OV P N us R
+<DEFINE> I2c_SetOwnAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 227 I DC OF F X (.,=p^{si2cctrlregs},us) -
+<EXTN> I2c_SetSlaveAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 231
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 232 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Address_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 233 I DC OV P N us R
+<DEFINE> I2c_SetSlaveAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 231 I DC OF F X (.,=p^{si2cctrlregs},us) -
+<EXTN> I2c_SetFunctional C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 235
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 236 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Port_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 237 I DC OV P N uc R
+<DEFINE> I2c_SetFunctional C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 235 I DC OF F X (.,=p^{si2cctrlregs},uc) -
+<EXTN> I2c_SetBaudrate C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 239
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 240 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Baud_Hz_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 241 I DC OV P N ul R
+<DEFINE> I2c_SetBaudrate C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 239 I DC OF F X (.,=p^{si2cctrlregs},ul) -
+<EXTN> I2c_IsTxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 243
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 244 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_IsTxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 243 I DC OF F X (uc,=p^{si2cctrlregs}) -
+<EXTN> I2c_SendByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 246
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 247 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Byte_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 248 I DC OV P N uc R
+<DEFINE> I2c_SendByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 246 I DC OF F X (.,=p^{si2cctrlregs},uc) -
+<EXTN> I2c_Send C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 250
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 251 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Length_Cnt_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 252 I DC OV P N ul R
+<DEFINE> DataPtr_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 253 I DC OV P N puc R
+<DEFINE> I2c_Send C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 250 I DC OF F X (.,=p^{si2cctrlregs},ul,puc) -
+<EXTN> I2c_IsRxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 255
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 256 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_IsRxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 255 I DC OF F X (uc,=p^{si2cctrlregs}) -
+<EXTN> I2c_RxError C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 258
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 259 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_RxError C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 258 I DC OF F X (ul,=p^{si2cctrlregs}) -
+<EXTN> I2c_ReceiveByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 261
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 262 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_ReceiveByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 261 I DC OF F X (uc,=p^{si2cctrlregs}) -
+<EXTN> I2c_SetRecv C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 264
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 265 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Length_Cnt_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 266 I DC OV P N ul R
+<DEFINE> DataPtr_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 267 I DC OV P N puc R
+<DEFINE> I2c_SetRecv C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 264 I DC OF F X (.,=p^{si2cctrlregs},ul,puc) -
+<EXTN> I2c_SetDirection C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 269
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 270 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Dir_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 271 I DC OV P N uc R
+<DEFINE> I2c_SetDirection C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 269 I DC OF F X (.,=p^{si2cctrlregs},uc) -
+<EXTN> I2c_SetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 273
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 274 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Bit_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 275 I DC OV P N uc R
+<DEFINE> Value_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 276 I DC OV P N uc R
+<DEFINE> I2c_SetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 273 I DC OF F X (.,=p^{si2cctrlregs},uc,uc) -
+<EXTN> I2c_GetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 278
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 279 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Bit_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 280 I DC OV P N uc R
+<DEFINE> I2c_GetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 278 I DC OF F X (ul,=p^{si2cctrlregs},uc) -
+<EXTN> I2c_EnableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 282
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 283 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Flags_Cnt_T_b32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 284 I DC OV P N ul R
+<DEFINE> I2c_EnableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 282 I DC OF F X (.,=p^{si2cctrlregs},ul) -
+<EXTN> I2c_DisableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 286
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 287 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Flags_Cnt_T_b32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 288 I DC OV P N ul R
+<DEFINE> I2c_DisableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 286 I DC OF F X (.,=p^{si2cctrlregs},ul) -
+<EXTN> I2c_GenStartCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 290
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 291 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_GenStartCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 290 I DC OF F X (.,=p^{si2cctrlregs}) -
+<EXTN> I2c_GenStopCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 293
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 294 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_GenStopCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 293 I DC OF F X (.,=p^{si2cctrlregs}) -
+<EXTN> I2c_GetIntVect C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 296
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 297 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_GetIntVect C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 296 I DC OF F X (uc,=p^{si2cctrlregs}) -
+<EXTN> I2c_GetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 299
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 300 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> I2c_GetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 299 I DC OF F X (us,=p^{si2cctrlregs}) -
+<EXTN> I2c_SetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 302
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 303 I DC OV P N =p^{si2cctrlregs} R
+<DEFINE> Status_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 304 I DC OV P N us R
+<DEFINE> I2c_SetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/include/I2cNxtr.h 302 I DC OF F X (.,=p^{si2cctrlregs},us) -
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/StdDef/include/Std_Types.h 37
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/interrupts.h 38
+<DEFINE> INTERRUPTS_H C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/interrupts.h 19 I DF OM - - - O
+<EXTN> EnableI2CInterrupt C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/interrupts.h 21
+<DEFINE> EnableI2CInterrupt C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/interrupts.h 21 I DC OF F X (.,.) -
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 39
+<DEFINE> __I2CNXTR_H__ C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 28 I DF OM - - - O
+<EXTN> I2cNxtr_InterruptNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 37
+<DEFINE> Flags_Cnt_T_b16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 37 I DC OV P N us R
+<DEFINE> I2cNxtr_InterruptNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 37 I DC OF F X (.,us) -
+<DEFINE> D_COMMBUFFERSIZE_CNT_U08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 44 I DF OM - - - O
+<LIT> 10 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 44 37 I DN - F M
+<DEFINE> I2c_Notification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 48 I DF OM - - - O
+<DEFINE> D_I2CREG_STRCPTR C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 52 I DF OM - - - O
+<DEFINE> D_VCLK_HZ_F32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 56 I DF OM - - - O
+<LIT> 80.0 f P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 56 25 I FN - F M
+<LIT> 1000000.0 f P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/I2cNxtr_Cfg.h 56 33 I FN - F M
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 40
+<DEFINE> SYSTEMTIME_H C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 20 I DF OM - - - O
+<EXTN> DtrmnElapsedTime_uS_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 22
+<DEFINE> InitialTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 22 I DC OV P N ul R
+<DEFINE> ElapsedTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 22 I DC OV P N pus R
+<DEFINE> DtrmnElapsedTime_uS_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 22 I DC OF F X (.,ul,pus) -
+<EXTN> DtrmnElapsedTime_uS_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 23
+<DEFINE> InitialTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 23 I DC OV P N ul R
+<DEFINE> ElapsedTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 23 I DC OV P N pul R
+<DEFINE> DtrmnElapsedTime_uS_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 23 I DC OF F X (.,ul,pul) -
+<EXTN> DtrmnElapsedTime_mS_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 24
+<DEFINE> InitialTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 24 I DC OV P N ul R
+<DEFINE> ElapsedTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 24 I DC OV P N pus R
+<DEFINE> DtrmnElapsedTime_mS_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 24 I DC OF F X (.,ul,pus) -
+<EXTN> DtrmnElapsedTime_mS_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 25
+<DEFINE> InitialTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 25 I DC OV P N ul R
+<DEFINE> ElapsedTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 25 I DC OV P N pul R
+<DEFINE> DtrmnElapsedTime_mS_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 25 I DC OF F X (.,ul,pul) -
+<EXTN> GetSystemTime_uS_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 26
+<DEFINE> CurrentTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 26 I DC OV P N pul R
+<DEFINE> GetSystemTime_uS_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 26 I DC OF F X (.,pul) -
+<EXTN> GetSystemTime_mS_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 27
+<DEFINE> CurrentTime C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 27 I DC OV P N pul R
+<DEFINE> GetSystemTime_mS_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 27 I DC OF F X (.,pul) -
+<EXTN> SystemTime_Per1 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 28
+<DEFINE> SystemTime_Per1 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 28 I DC OF F X (.,.) -
+<EXTN> SystemTime_Init C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 29
+<DEFINE> SystemTime_Init C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/NxtrLib/include/SystemTime.h 29 I DC OF F X (.,.) -
+<DEFINE> D_CLKRESETPULSES_CNT_U08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 43 N DF OM - - - O
+<LIT> 18 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 43 41 N DN - F M
+<DEFINE> D_CLOCKPERIOD_US_U08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 44 N DF OM - - - O
+<LIT> 5 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 44 41 N DN - F M
+<DEFINE> I2CNXTR_START_SEC_VAR_CLEARED_UNSPECIFIED C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 47 N DF OM - - - O
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/MemMap.h 48
+<DEFINE> MEMMAP_H C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/MemMap.h 19 I DF OM - - - O
+<EXTT> I2cNxtr_I2cTransfer_Cnt_M_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 49
+<DEFINE> I2cNxtr_I2cTransfer_Cnt_M_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 49 N DR OV F X {sI2cTransferType} S
+<DEFINE> I2CNXTR_STOP_SEC_VAR_CLEARED_UNSPECIFIED C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 50 N DF OM - - - O
+<R>I C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/utp/contract/MemMap.h 51
+<EXTD> I2c_Init C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 72
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 72 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_Init C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 72 N DR OF F X (.,=p^{si2cctrlregs}) -
+<DEFINE> I2c_Init C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 72 N DF OF F X (.,=p^{si2cctrlregs}) -
+<DEFINE> PulseCount_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 74 N DC OV B N uc -
+<DEFINE> PulseCount_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 74 N DF OV B N uc -
+<DEFINE> StartTime_uS_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 75 N DC OV B N ul -
+<DEFINE> StartTime_uS_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 75 N DF OV B N ul -
+<DEFINE> ElapsedTime_uS_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 76 N DC OV B N us -
+<DEFINE> ElapsedTime_uS_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 76 N DF OV B N us -
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 83 38 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 84 37 N DN ui B X
+<LIT> 2 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 85 46 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 86 37 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 87 37 N ON ui B X
+<LIT> 2 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 87 92 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 87 121 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 90 46 N DN ui B X
+<RDEF> C Calls
+<R>C I2c_Init GetSystemTime_uS_u32 93
+<RDEF> X Refers-to
+<R>X I2c_Init GetSystemTime_uS_u32 93 R
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 94 40 N ON ui B X
+<R>C I2c_Init DtrmnElapsedTime_uS_u16 97
+<R>X I2c_Init DtrmnElapsedTime_uS_u16 97 R
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 100 46 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 103 36 N ON ui B X
+<LIT> 9 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 106 36 N DN ui B X
+<LIT> 35 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 109 38 N DN ui B X
+<LIT> 35 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 110 38 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 113 37 N ON ui B X
+<LIT> 0x0000 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 114 36 N HN ui B X
+<LIT> 2 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 115 36 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 118 36 N ON ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 121 36 N ON ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 124 37 N ON ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 125 61 N ON ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 128 44 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 128 50 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 129 68 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 132 44 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 132 50 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 133 68 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 136 43 N ON ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 136 49 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 137 67 N ON ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 140 44 N ON ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 140 50 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 141 68 N ON ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 144 44 N ON ui B X
+<LIT> 6 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 144 50 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 145 68 N ON ui B X
+<LIT> 5 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 145 74 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 146 68 N ON ui B X
+<LIT> 4 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 146 74 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 147 68 N ON ui B X
+<LIT> 3 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 147 74 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 148 68 N ON ui B X
+<LIT> 2 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 148 74 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 149 68 N ON ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 149 74 N DN ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 150 68 N ON ui B X
+<R>X I2c_Init I2cNxtr_I2cTransfer_Cnt_M_str 153 W
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 153 56 N ON ui B X
+<R>X I2c_Init I2cNxtr_I2cTransfer_Cnt_M_str 154 W
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 154 56 N ON ui B X
+<R>C I2c_Init EnableI2CInterrupt 156
+<R>X I2c_Init EnableI2CInterrupt 156 R
+<CTLG> I2c_Init 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 9
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 5
+<CTLG> 7 8
+<CTLG> 8 3
+<CTLG> 9 10
+<CTLG> 10 12
+<CTLGN> 73 87 87 87 95 95 95 87 87 157 157 157 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_Init
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  2
+<S>STSUB  3
+<S>STAKI  6
+<S>STLIN  83
+<S>STXLN  40
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  3
+<S>STPDN  0.08   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  11
+<S>STST1  34
+<S>STST2  32
+<S>STST3  29
+<S>STPAR  1
+<S>STCAL  3
+<S>STFN1  207
+<S>STFN2  136
+
+<EXTD> I2c_Enable C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 171
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 172 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_Enable C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 171 N DR OF F X (.,=p^{si2cctrlregs}) -
+<DEFINE> I2c_Enable C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 171 N DF OF F X (.,=p^{si2cctrlregs}) -
+<CTLG> I2c_Enable 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 174 176 176 176 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_Enable
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_Reset C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 188
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 189 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_Reset C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 188 N DR OF F X (.,=p^{si2cctrlregs}) -
+<DEFINE> I2c_Reset C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 188 N DF OF F X (.,=p^{si2cctrlregs}) -
+<CTLG> I2c_Reset 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 191 193 193 193 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_Reset
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> I2c_SetupMasterTransmit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 206
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 207 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> SlaveAddress_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 208 N DC OV B N uc R
+<DEFINE> DataLength_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 209 N DC OV B N us R
+<DEFINE> I2c_SetupMasterTransmit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 206 N DR OF F X (.,=p^{si2cctrlregs},uc,us) -
+<DEFINE> I2c_SetupMasterTransmit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 206 N DF OF F X (.,=p^{si2cctrlregs},uc,us) -
+<CTLG> I2c_SetupMasterTransmit 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 211 220 220 220 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetupMasterTransmit
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  8
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  18
+<S>STFN2  13
+
+<EXTD> I2c_SetupMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 233
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 234 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> SlaveAddress_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 235 N DC OV B N uc R
+<DEFINE> DataLength_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 236 N DC OV B N us R
+<DEFINE> I2c_SetupMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 233 N DR OF F X (.,=p^{si2cctrlregs},uc,us) -
+<DEFINE> I2c_SetupMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 233 N DF OF F X (.,=p^{si2cctrlregs},uc,us) -
+<CTLG> I2c_SetupMasterReceive 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 238 248 248 248 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetupMasterReceive
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  9
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  18
+<S>STFN2  13
+
+<EXTD> I2c_SwitchMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 261
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 262 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> DataLength_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 263 N DC OV B N us R
+<DEFINE> I2c_SwitchMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 261 N DR OF F X (.,=p^{si2cctrlregs},us) -
+<DEFINE> I2c_SwitchMasterReceive C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 261 N DF OF F X (.,=p^{si2cctrlregs},us) -
+<CTLG> I2c_SwitchMasterReceive 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 265 272 272 272 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SwitchMasterReceive
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  6
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  15
+<S>STFN2  10
+
+<EXTD> I2c_SetCount C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 286
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 287 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Count_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 288 N DC OV B N us R
+<DEFINE> I2c_SetCount C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 286 N DR OF F X (.,=p^{si2cctrlregs},us) -
+<DEFINE> I2c_SetCount C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 286 N DF OF F X (.,=p^{si2cctrlregs},us) -
+<CTLG> I2c_SetCount 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 290 292 292 292 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetCount
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_SetOwnAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 305
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 306 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Address_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 307 N DC OV B N us R
+<DEFINE> I2c_SetOwnAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 305 N DR OF F X (.,=p^{si2cctrlregs},us) -
+<DEFINE> I2c_SetOwnAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 305 N DF OF F X (.,=p^{si2cctrlregs},us) -
+<CTLG> I2c_SetOwnAdd 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 309 311 311 311 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetOwnAdd
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_SetSlaveAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 324
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 325 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Address_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 326 N DC OV B N us R
+<DEFINE> I2c_SetSlaveAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 324 N DR OF F X (.,=p^{si2cctrlregs},us) -
+<DEFINE> I2c_SetSlaveAdd C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 324 N DF OF F X (.,=p^{si2cctrlregs},us) -
+<CTLG> I2c_SetSlaveAdd 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 328 330 330 330 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetSlaveAdd
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_SetFunctional C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 346
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 347 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Port_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 348 N DC OV B N uc R
+<DEFINE> I2c_SetFunctional C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 346 N DR OF F X (.,=p^{si2cctrlregs},uc) -
+<DEFINE> I2c_SetFunctional C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 346 N DF OF F X (.,=p^{si2cctrlregs},uc) -
+<CTLG> I2c_SetFunctional 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 350 353 353 353 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetFunctional
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  2
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_SetBaudrate C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 366
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 367 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Baud_Hz_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 368 N DC OV B N ul R
+<DEFINE> I2c_SetBaudrate C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 366 N DR OF F X (.,=p^{si2cctrlregs},ul) -
+<DEFINE> I2c_SetBaudrate C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 366 N DF OF F X (.,=p^{si2cctrlregs},ul) -
+<DEFINE> Prescale_Uls_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 371 N DC OV B N ul -
+<DEFINE> Prescale_Uls_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 371 N DF OV B N ul -
+<DEFINE> Vclk_Hz_T_f32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 372 N DC OV B N fs -
+<DEFINE> Vclk_Hz_T_f32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 372 N DF OV B N fs -
+<LIT> 16 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 376 82 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 376 89 N DN ui B X
+<LIT> 0x00FFFFFF U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 376 96 N HN ul B X
+<CTLG> I2c_SetBaudrate 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 370 378 378 378 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetBaudrate
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  7
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  17
+<S>STST1  5
+<S>STST2  5
+<S>STST3  3
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  31
+<S>STFN2  21
+
+<EXTD> I2c_IsTxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 390
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 391 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_IsTxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 390 N DR OF F X (uc,=p^{si2cctrlregs}) -
+<DEFINE> I2c_IsTxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 390 N DF OF F X (uc,=p^{si2cctrlregs}) -
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 394 59 N ON ui B X
+<CTLG> I2c_IsTxReady 1
+<CTLG> 1 3
+<CTLGN> 393 394 394 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_IsTxReady
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  13
+<S>STAV2  13
+<S>STAV3  13
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  9
+<S>STFN2  4
+
+<EXTD> I2c_SendByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 409
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 410 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Byte_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 411 N DC OV B N uc R
+<DEFINE> I2c_SendByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 409 N DR OF F X (.,=p^{si2cctrlregs},uc) -
+<DEFINE> I2c_SendByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 409 N DF OF F X (.,=p^{si2cctrlregs},uc) -
+<CTLG> I2c_SendByte 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 413 415 415 415 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SendByte
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_Send C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 434
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 435 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Length_Cnt_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 436 N DC OV B N ul R
+<DEFINE> DataPtr_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 437 N DC OV B N puc R
+<DEFINE> I2c_Send C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 434 N DR OF F X (.,=p^{si2cctrlregs},ul,puc) -
+<DEFINE> I2c_Send C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 434 N DF OF F X (.,=p^{si2cctrlregs},ul,puc) -
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 440 74 N ON ui B X
+<R>X I2c_Send I2cNxtr_I2cTransfer_Cnt_M_str 440 R
+<R>X I2c_Send I2cNxtr_I2cTransfer_Cnt_M_str 443 W
+<R>X I2c_Send I2cNxtr_I2cTransfer_Cnt_M_str 444 W
+<R>X I2c_Send I2cNxtr_I2cTransfer_Cnt_M_str 447 R
+<R>X I2c_Send I2cNxtr_I2cTransfer_Cnt_M_str 448 R
+<R>X I2c_Send I2cNxtr_I2cTransfer_Cnt_M_str 448 W
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 454 43 N ON ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 457 75 N ON ui B X
+<CTLG> I2c_Send 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 9
+<CTLG> 3 4
+<CTLG> 3 8
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 5
+<CTLG> 7 3
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLGN> 439 440 440 454 457 457 457 454 451 465 465 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_Send
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  3
+<S>STSUB  0
+<S>STAKI  4
+<S>STLIN  25
+<S>STXLN  12
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  4
+<S>STPDN  0.33   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  5
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  15
+<S>STST2  11
+<S>STST3  11
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  56
+<S>STFN2  30
+
+<EXTD> I2c_IsRxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 477
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 478 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_IsRxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 477 N DR OF F X (uc,=p^{si2cctrlregs}) -
+<DEFINE> I2c_IsRxReady C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 477 N DF OF F X (uc,=p^{si2cctrlregs}) -
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 481 59 N ON ui B X
+<CTLG> I2c_IsRxReady 1
+<CTLG> 1 3
+<CTLGN> 480 481 481 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_IsRxReady
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  13
+<S>STAV2  13
+<S>STAV3  13
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  9
+<S>STFN2  4
+
+<EXTD> I2c_RxError C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 494
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 495 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_RxError C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 494 N DR OF F X (ul,=p^{si2cctrlregs}) -
+<DEFINE> I2c_RxError C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 494 N DF OF F X (ul,=p^{si2cctrlregs}) -
+<DEFINE> Status_Cnt_T_b32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 498 N DC OV B N ul -
+<DEFINE> Status_Cnt_T_b32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 498 N DF OV B N ul -
+<CTLG> I2c_RxError 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 497 502 502 502 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_RxError
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  13
+<S>STAV2  13
+<S>STAV3  19
+<S>STST1  3
+<S>STST2  3
+<S>STST3  2
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  24
+<S>STFN2  15
+
+<EXTD> I2c_ReceiveByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 516
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 517 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_ReceiveByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 516 N DR OF F X (uc,=p^{si2cctrlregs}) -
+<DEFINE> I2c_ReceiveByte C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 516 N DF OF F X (uc,=p^{si2cctrlregs}) -
+<CTLG> I2c_ReceiveByte 1
+<CTLG> 1 3
+<CTLGN> 519 520 520 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_ReceiveByte
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  7
+<S>STFN2  3
+
+<EXTD> I2c_SetRecv C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 539
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 540 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Length_Cnt_T_u32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 541 N DC OV B N ul R
+<DEFINE> DataPtr_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 542 N DC OV B N puc R
+<DEFINE> I2c_SetRecv C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 539 N DR OF F X (.,=p^{si2cctrlregs},ul,puc) -
+<DEFINE> I2c_SetRecv C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 539 N DF OF F X (.,=p^{si2cctrlregs},ul,puc) -
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 545 56 N ON ui B X
+<R>X I2c_SetRecv I2cNxtr_I2cTransfer_Cnt_M_str 550 W
+<R>X I2c_SetRecv I2cNxtr_I2cTransfer_Cnt_M_str 551 W
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 555 43 N ON ui B X
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 558 75 N ON ui B X
+<CTLG> I2c_SetRecv 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 9
+<CTLG> 3 4
+<CTLG> 3 8
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 5
+<CTLG> 7 3
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLGN> 544 545 545 555 558 558 558 555 553 566 566 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetRecv
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  3
+<S>STSUB  0
+<S>STAKI  4
+<S>STLIN  21
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  4
+<S>STPDN  0.40   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  13
+<S>STST2  9
+<S>STST3  9
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  55
+<S>STFN2  27
+
+<EXTD> I2c_SetDirection C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 579
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 580 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Dir_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 581 N DC OV B N uc R
+<DEFINE> I2c_SetDirection C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 579 N DR OF F X (.,=p^{si2cctrlregs},uc) -
+<DEFINE> I2c_SetDirection C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 579 N DF OF F X (.,=p^{si2cctrlregs},uc) -
+<CTLG> I2c_SetDirection 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 583 585 585 585 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetDirection
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_SetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 599
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 600 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Bit_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 601 N DC OV B N uc R
+<DEFINE> Value_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 602 N DC OV B N uc R
+<DEFINE> I2c_SetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 599 N DR OF F X (.,=p^{si2cctrlregs},uc,uc) -
+<DEFINE> I2c_SetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 599 N DF OF F X (.,=p^{si2cctrlregs},uc,uc) -
+<LIT> 0 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 605 32 N ON ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 607 61 N DN ui B X
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 611 61 N DN ui B X
+<CTLG> I2c_SetBit 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 604 605 605 609 613 613 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetBit
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  8
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  15
+<S>STAV3  15
+<S>STST1  5
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  31
+<S>STFN2  14
+
+<EXTD> I2c_GetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 626
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 627 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Bit_Cnt_T_u08 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 628 N DC OV B N uc R
+<DEFINE> I2c_GetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 626 N DR OF F X (ul,=p^{si2cctrlregs},uc) -
+<DEFINE> I2c_GetBit C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 626 N DF OF F X (ul,=p^{si2cctrlregs},uc) -
+<LIT> 1 U P C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 631 62 N DN ui B X
+<CTLG> I2c_GetBit 1
+<CTLG> 1 3
+<CTLGN> 630 631 631 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_GetBit
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  13
+<S>STAV2  13
+<S>STAV3  13
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  9
+<S>STFN2  4
+
+<EXTD> I2c_EnableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 652
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 653 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Flags_Cnt_T_b32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 654 N DC OV B N ul R
+<DEFINE> I2c_EnableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 652 N DR OF F X (.,=p^{si2cctrlregs},ul) -
+<DEFINE> I2c_EnableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 652 N DF OF F X (.,=p^{si2cctrlregs},ul) -
+<R>X I2c_EnableNotification I2cNxtr_I2cTransfer_Cnt_M_str 657 R
+<R>X I2c_EnableNotification I2cNxtr_I2cTransfer_Cnt_M_str 657 W
+<CTLG> I2c_EnableNotification 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 656 659 659 659 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_EnableNotification
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  2
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  19
+<S>STFN2  9
+
+<EXTD> I2c_DisableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 679
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 680 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Flags_Cnt_T_b32 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 681 N DC OV B N ul R
+<DEFINE> I2c_DisableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 679 N DR OF F X (.,=p^{si2cctrlregs},ul) -
+<DEFINE> I2c_DisableNotification C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 679 N DF OF F X (.,=p^{si2cctrlregs},ul) -
+<R>X I2c_DisableNotification I2cNxtr_I2cTransfer_Cnt_M_str 684 R
+<R>X I2c_DisableNotification I2cNxtr_I2cTransfer_Cnt_M_str 684 W
+<CTLG> I2c_DisableNotification 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 683 686 686 686 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_DisableNotification
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  2
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  20
+<S>STFN2  9
+
+<EXTD> I2c_GenStartCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 698
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 699 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_GenStartCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 698 N DR OF F X (.,=p^{si2cctrlregs}) -
+<DEFINE> I2c_GenStartCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 698 N DF OF F X (.,=p^{si2cctrlregs}) -
+<CTLG> I2c_GenStartCond 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 701 703 703 703 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_GenStartCond
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_GenStopCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 715
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 716 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_GenStopCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 715 N DR OF F X (.,=p^{si2cctrlregs}) -
+<DEFINE> I2c_GenStopCond C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 715 N DF OF F X (.,=p^{si2cctrlregs}) -
+<CTLG> I2c_GenStopCond 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 718 720 720 720 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_GenStopCond
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2c_GetIntVect C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 732
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 733 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_GetIntVect C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 732 N DR OF F X (uc,=p^{si2cctrlregs}) -
+<DEFINE> I2c_GetIntVect C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 732 N DF OF F X (uc,=p^{si2cctrlregs}) -
+<CTLG> I2c_GetIntVect 1
+<CTLG> 1 3
+<CTLGN> 735 736 736 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_GetIntVect
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  7
+<S>STFN2  3
+
+<EXTD> I2c_GetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 749
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 750 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> I2c_GetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 749 N DR OF F X (us,=p^{si2cctrlregs}) -
+<DEFINE> I2c_GetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 749 N DF OF F X (us,=p^{si2cctrlregs}) -
+<CTLG> I2c_GetStatus 1
+<CTLG> 1 3
+<CTLGN> 752 753 753 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_GetStatus
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  7
+<S>STFN2  3
+
+<EXTD> I2c_SetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 766
+<DEFINE> I2cRegPtr_Cnt_T_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 767 N DC OV B N =p^{si2cctrlregs} R
+<DEFINE> Status_Cnt_T_u16 C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 768 N DC OV B N us R
+<DEFINE> I2c_SetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 766 N DR OF F X (.,=p^{si2cctrlregs},us) -
+<DEFINE> I2c_SetStatus C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 766 N DF OF F X (.,=p^{si2cctrlregs},us) -
+<CTLG> I2c_SetStatus 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 770 772 772 772 
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  I2c_SetStatus
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  3
+
+<EXTD> I2cNxtr_I2cTransfer_Cnt_M_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 49
+<DEFINE> I2cNxtr_I2cTransfer_Cnt_M_str C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c 49 N DI OV F X {sI2cTransferType} S
+<S>
+<S>STFIL  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNAM  C:/Workspace/I2cNxtr-CBD_I2cNxtr/01.00.00/I2cNxtr/src/I2cNxtr.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  28
+<S>STFCO  -24
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  106
+<S>STOPT  36
+<S>STOPN  171
+<S>STTOT  1672
+<S>STZIP  1223
+<S>STHAL  1455
+<S>STSHN  5261
+<S>STDIF  17.63  
+<S>STEFF  226818
+<S>STVOL  12864
+<S>STDEV  37.80  
+<S>STBUG  4
+<S>STTPP  777
+<S>STTLN  291
+<S>STM20  681
+<S>STM21  985
+<S>STM22  84
+<S>STM28  87
+<S>STM33  56
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.841  
+<S>STBMS  2.261  
+<S>STBME  2.660  
+<S>STTDO  3.153  
+<S>STTDS  3.326  
+<S>STTDE  3.419  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  2.510  
+

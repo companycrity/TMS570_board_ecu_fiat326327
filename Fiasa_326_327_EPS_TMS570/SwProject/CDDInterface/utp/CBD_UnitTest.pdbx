@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\Tessy_\backup"
+    configuration="$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+    database="$(PROJECTROOT)\Tessy_"
+    description=""
+    enableSourceRoot="true"
+    sourceRoot="$(PROJECTROOT)\CDDInterface\src"
+    identifier="9ff96bd0-c62a-4b2c-bc0c-c845c122ec38"
+    location="$(PROJECTROOT)\Tessy_"
+    name="CDDInterface_FIASA"
+    projectVersion="3"
+    tessyVersion="3.1.11"
+    isTemplate="false"/>
